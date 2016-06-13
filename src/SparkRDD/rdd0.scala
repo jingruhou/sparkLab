@@ -8,7 +8,7 @@ import org.apache.spark.{SparkContext, SparkConf}
   */
 object rdd0 {
   def main(args:Array[String]): Unit ={
-    val conf = new SparkConf().setAppName("rdd_Parallelize").setMaster("local[*]")
+    val conf = new SparkConf().setAppName("rdd_Parallelize").setMaster("local")
     val sc = new SparkContext(conf)
 
     //Logger.getRootLogger.setLevel(Level.WARN)

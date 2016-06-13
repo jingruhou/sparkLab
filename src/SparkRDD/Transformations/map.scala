@@ -8,7 +8,7 @@ import org.apache.spark.{SparkContext, SparkConf}
 object map {
   def main(args:Array[String]): Unit ={
 
-    val conf = new SparkConf().setAppName("map_Transformations").setMaster("local[*]")
+    val conf = new SparkConf().setAppName("map_Transformations").setMaster("local")
     val sc = new SparkContext(conf)
 
     /**
@@ -16,7 +16,7 @@ object map {
       *
       * 返回一个新的RDD,由每个元素经过func函数转化后
       */
-    val originalRDD = sc.textFile("D:/SogouLab/SogouQ.reduced.tar.gz")
+    val originalRDD = sc.textFile("D:/SogouLab/SogouQ1.txt")
     originalRDD.foreach(println)
   }
 }
