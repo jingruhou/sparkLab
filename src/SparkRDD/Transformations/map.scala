@@ -18,5 +18,10 @@ object map {
       */
     val originalRDD = sc.textFile("D:/SogouLab/SogouQ1.txt")
     originalRDD.foreach(println)
+
+    // 0
+    val result0 = originalRDD.flatMap(line =>line.split("\t")).map(word =>(word,1)).reduceByKey(_ + _)
+    result0.foreach(println)
+
   }
 }
