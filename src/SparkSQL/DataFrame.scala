@@ -10,12 +10,12 @@ object DataFrame {
   def main(args:Array[String]): Unit ={
 
     // 0 初始化环境配置
-    val conf = new SparkConf().setMaster("local").setAppName("DataFrame")
+    val conf = new SparkConf().setAppName("zkjz_df_hjr")
     val sc = new SparkContext(conf)
     val sqlContext = new SQLContext(sc)
 
     // 1 加载数据文件 --- 中国 A 股上市公司基本信息
-    val df = sqlContext.read.json("D:/sparkLab/Resources/data")
+    val df = sqlContext.read.json("/user/houjr/data/stock_5.json")
 
     // 2 - 1打印 DataFrame 的 Schema
     df.printSchema()
@@ -70,5 +70,6 @@ object DataFrame {
     df.registerTempTable("stock")
 
     sqlContext.sql("select * from stock").show(5)
+
   }
 }

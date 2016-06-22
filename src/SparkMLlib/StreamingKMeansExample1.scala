@@ -31,9 +31,11 @@ object StreamingKMeansExample1 {
     val ssc = new StreamingContext(conf,Seconds(5))
 
     // 2-1 加载训练数据路径---将数据转化为Vectors向量形式
-    val trainingData = ssc.textFileStream("D:/streamingData/kmeans/trainingDir").map(Vectors.parse)
+    val trainingData = ssc.textFileStream("D:/streamingData/kmeans/trainingDir/0.txt").map(Vectors.parse)
+    //val trainingData = ssc.textFileStream("Resources/data/kmeans/trainingDir/0.txt").map(Vectors.parse)
     // 2-2 加载测试数据路径---将数据转化为LabeledPoint形式
     val testData = ssc.textFileStream("D:/streamingData/kmeans/testDir").map(LabeledPoint.parse)
+    //val testData = ssc.textFileStream("Resources/data/kmeans/testDir/0.txt").map(LabeledPoint.parse)
 
     /*
      * $ bin/run-example mllib.StreamingKMeansExample trainingDir testDir 5 3 2

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sparkLab:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/sparkLab_jar</output-path>
+    <root id="archive" name="sparkLab.jar">
+      <element id="module-output" name="sparkLab" />
+    </root>
+  </artifact>
+</component>
