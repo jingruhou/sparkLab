@@ -1,0 +1,13 @@
+(1) 创建一个Topic
+
+kafka-topics --create \
+--zookeeper zkjz0:2181 \
+--replication-factor 1 \
+--partitions 1 \
+--topic ZKJZ0
+
+（2）启动Producer程序
+
+
+（3）启动Consumer程序
+
