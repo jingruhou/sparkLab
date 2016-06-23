@@ -9,7 +9,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 /**
   * Created by Administrator on 2016/6/14.
   */
-object StreamingKMeansExample1 {
+object StreamingKMeansExample {
   /**
     * 将数据输入路径写死
     *
@@ -18,33 +18,31 @@ object StreamingKMeansExample1 {
   def main(args: Array[String]) {
 
     // 0 输入参数判断
-    /*if (args.length != 5) {
+    if (args.length != 5) {
       System.err.println(
         "Usage: StreamingKMeansExample " +
           "<trainingDir> <testDir> <batchDuration> <numClusters> <numDimensions>")
       System.exit(1)
-    }*/
+    }
 
     // 1-1 初始化SparkConf（设置master、appname、jar等）
     val conf = new SparkConf().setMaster("local").setAppName("StreamingKMeansExample1")
     // 1-2 使用SparkConf初始化StreamingContext
-    val ssc = new StreamingContext(conf,Seconds(5))
+    val ssc = new StreamingContext(conf,Seconds(args(2).toLong))
 
     // 2-1 加载训练数据路径---将数据转化为Vectors向量形式
-    val trainingData = ssc.textFileStream("D:/streamingData/kmeans/trainingDir/0.txt").map(Vectors.parse)
-    //val trainingData = ssc.textFileStream("Resources/data/kmeans/trainingDir/0.txt").map(Vectors.parse)
+    val trainingData = ssc.textFileStream(args(0)).map(Vectors.parse)
     // 2-2 加载测试数据路径---将数据转化为LabeledPoint形式
-    val testData = ssc.textFileStream("D:/streamingData/kmeans/testDir").map(LabeledPoint.parse)
-    //val testData = ssc.textFileStream("Resources/data/kmeans/testDir/0.txt").map(LabeledPoint.parse)
+    val testData = ssc.textFileStream(args(1)).map(LabeledPoint.parse)
 
     /*
      * $ bin/run-example mllib.StreamingKMeansExample trainingDir testDir 5 3 2
      */
     // 3 初始化StreamingKMeans模型（K值//设置DecayFactor **系数//初始中心点的个数）
     val model = new StreamingKMeans()
-      .setK(2)
+      .setK(args(3).toInt)
       .setDecayFactor(1.0)
-      .setRandomCenters(2,0.0)
+      .setRandomCenters(args(4).toInt,0.0)
 
     // 4 训练模型
     model.trainOn(trainingData)
