@@ -1,13 +1,21 @@
 (1) 创建一个Topic
 
-kafka-topics --create \
---zookeeper zkjz0:2181 \
---replication-factor 1 \
---partitions 1 \
---topic ZKJZ0
+kafka-topics --create --zookeeper zkjz0:2181 --replication-factor 1 --partitions 1 --topic ZKJZ0
+
+    删除某一个Topic
+./kafka-topics  --zookeeper zkjz0:2181 --topic ZKJZ0 -delete
 
 （2）启动Producer程序
-
+./kafka-console-producer --broker-list zkjz0:9092 --topic ZKJZ0
 
 （3）启动Consumer程序
 
+./kafka-console-consumer --zookeeper zkjz0:2181 --topic ZKJZ0 --from-beginning
+
+（4）启动KafkaOffsetMonitor监控程序：
+java -cp KafkaOffsetMonitor-assembly-0.2.0.jar \
+com.quantifind.kafka.offsetapp.OffsetGetterWeb \
+--zk zkjz0:2181 \
+--port 8089 \
+--refresh 5.seconds \
+--retain 1.days
