@@ -1,0 +1,44 @@
+（1）
+sqoop import --append --connect jdbc:oracle:thin:@10.2.8.223:1521:bitbizdb --username ccdm --password ccdmsiat
+--query "select rid,mpi_person_id,visitor_date,replace(out_diag,'
+','')  from OUTCLINICAL_DIAG0530 where \$CONDITIONS"
+--num-mappers 1 --target-dir /user/hive/warehouse/word/ --fields-terminated-by "\001"
+
+sqoop import 参数解释：
+--append
+--connect
+--username
+--password
+--query
+--num-mappers
+--fields-terminated-by
+
+（2）
+sqoop import --append --connect jdbc:oracle:thin:@10.2.8.223:1521:bitbizdb --username ccdm
+--password ccdmsiat --table NAME --num-mappers 1 --target-dir /user/hive/warehouse/out
+--fields-terminated-by "|$|"
+
+sqoop import 参数解释：
+--append
+--connect
+--username
+--password
+--num-mappers
+--target-dir
+--fields-terminated-by
+
+（3）
+sqoop export --connect jdbc:oracle:thin:@10.2.8.223:1521:CCDM --username ccdm
+--password ccdmsiat --null-string ''
+--table TMP
+--columns "mpi_person_id,org_code,person_id_cd,person_id,out_sno,visitor_date,diag_sno_new,diag_type_code,dept_name,diag_code,diag_name" --export-dir /user/hive/warehouse/bitdb.db/tmp --input-fields-terminated-by '\001'
+
+sqoop export 参数解释：
+--connect
+--username
+--password
+--null-string
+--table
+--columns
+
+
