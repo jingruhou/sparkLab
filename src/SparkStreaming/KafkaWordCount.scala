@@ -10,7 +10,11 @@ import org.apache.spark.streaming.kafka._
 import org.apache.spark.SparkConf
 /**
   * Created by Administrator on 2016/6/23.
-  */
+  *
+  *
+  * Kafka 单词计数
+  **/
+
 object KafkaWordCount {
   def main(args: Array[String]) {
     if (args.length < 4) {
@@ -23,7 +27,7 @@ object KafkaWordCount {
     val Array(zkQuorum, group, topics, numThreads) = args
     val sparkConf = new SparkConf().setAppName("KafkaWordCount")
     val ssc = new StreamingContext(sparkConf, Seconds(2))
-    ssc.checkpoint("checkpoint")
+    ssc.checkpoint("checkpoint")//设置检查点
 
     val topicMap = topics.split(",").map((_, numThreads.toInt)).toMap
     val lines = KafkaUtils.createStream(ssc, zkQuorum, group, topicMap).map(_._2)
@@ -38,6 +42,9 @@ object KafkaWordCount {
 }
 
 // Produces some random words between 1 and 100.
+/**
+  * Kafka-Producer 随机生成1-100的数据
+  */
 object KafkaWordCountProducer {
 
   def main(args: Array[String]) {
@@ -49,6 +56,7 @@ object KafkaWordCountProducer {
 
     val Array(brokers, topic, messagesPerSec, wordsPerMessage) = args
 
+    // 配置Zookeeper的连接属性
     // Zookeeper connection properties
     val props = new HashMap[String, Object]()
     props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, brokers)
@@ -59,6 +67,7 @@ object KafkaWordCountProducer {
 
     val producer = new KafkaProducer[String, String](props)
 
+    // 发送数据
     // Send some messages
     while(true) {
       (1 to messagesPerSec.toInt).foreach { messageNum =>
@@ -69,7 +78,7 @@ object KafkaWordCountProducer {
         producer.send(message)
       }
 
-      Thread.sleep(1000)
+      Thread.sleep(1000)//线程休眠1秒
     }
   }
 }

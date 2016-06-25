@@ -22,7 +22,7 @@ public class KafkaConsumer {
 		props.put("zookeeper.connect", "192.168.13.130:2181");
 
 		// group 代表一个消费组
-		props.put("group.id", "jd-group");
+		props.put("group.id", "zkjz-group");
 
 		// zk连接超时
 		props.put("zookeeper.session.timeout.ms", "4000");

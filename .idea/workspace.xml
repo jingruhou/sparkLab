@@ -7,190 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/producer_jar/producer.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/sparkLab_jar/consumer.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/sparkLab_jar/producer.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/Kafka/ConsumerDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/Kafka/ConsumerMsgTask.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/Kafka/KafkaConsumer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/Kafka/KafkaProducer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/Kafka/PartitionerDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/Kafka/ProducerDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/KMeansExample$$anonfun$main$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/KMeansExample$$typecreator1$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/KMeansExample$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/KMeansExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/Kmeans$$anonfun$1$$anonfun$apply$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/Kmeans$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/Kmeans$$anonfun$2$$anonfun$apply$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/Kmeans$$anonfun$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/Kmeans$$anonfun$3$$anonfun$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/Kmeans$$anonfun$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/Kmeans$$anonfun$main$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/Kmeans$$anonfun$main$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/Kmeans$$anonfun$main$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/Kmeans$$anonfun$main$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/Kmeans$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/Kmeans.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/StreamingKMeansExample$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/StreamingKMeansExample$$anonfun$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/StreamingKMeansExample$$anonfun$main$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/StreamingKMeansExample$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkML/StreamingKMeansExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/collect$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/collect.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/count$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/count.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/countByKey$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/countByKey.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/first$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/first.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/foreach$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/foreach.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/reduce$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/reduce.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/saveAsObjectFile$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/saveAsObjectFile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/saveAsSequenceFile$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/saveAsSequenceFile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/saveAsTextFile$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/saveAsTextFile.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/take$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/take.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/takeOrdered$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/takeOrdered.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/takeSample$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Actions/takeSample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/aggregateByKey$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/aggregateByKey.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/distinct$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/distinct.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/filter$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/filter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/flatMap$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/flatMap.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/groupByKey$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/groupByKey.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/intersection$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/intersection.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/map$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/map$$anonfun$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/map$$anonfun$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/map$$anonfun$main$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/map$$anonfun$main$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/map$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/map.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/mapPartitions$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/mapPartitions.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/mapPartitionsWithIndex$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/mapPartitionsWithIndex.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/reduceByKey$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/reduceByKey.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/sample$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/sample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/sortByKey$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/sortByKey.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/union$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/Transformations/union.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$main$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$main$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/spark0$$anonfun$main$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/spark0$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/spark0.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/DataFrame$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/DataFrame.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/HiveOnSpark$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/HiveOnSpark$Record$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/HiveOnSpark$Record.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/HiveOnSpark.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/Reflection$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/Reflection$$anonfun$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/Reflection$$anonfun$main$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/Reflection$$anonfun$main$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/Reflection$$anonfun$main$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/Reflection$$anonfun$main$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/Reflection$$anonfun$main$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/Reflection$$anonfun$main$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/Reflection$$typecreator1$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/Reflection$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/Reflection$Person$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/Reflection$Person.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkSQL/Reflection.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/HdfsWordCount$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/HdfsWordCount$$anonfun$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/HdfsWordCount$$anonfun$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/HdfsWordCount$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/HdfsWordCount.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCountProducer$$anonfun$main$1$$anonfun$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCountProducer$$anonfun$main$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCountProducer$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCountProducer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingKMeansExample$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingKMeansExample$$anonfun$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingKMeansExample$$anonfun$main$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingKMeansExample$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingKMeansExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLinearRegression$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLinearRegression$$anonfun$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLinearRegression$$anonfun$main$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLinearRegression$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLinearRegression.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLinearRegressionExample$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLinearRegressionExample$$anonfun$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLinearRegressionExample$$anonfun$main$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLinearRegressionExample$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLinearRegressionExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLogisticRegression$$anonfun$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLogisticRegression$$anonfun$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLogisticRegression$$anonfun$main$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLogisticRegression$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/StreamingMLLib/StreamingLogisticRegression.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/data/LinearRegression/testDir/0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/data/LinearRegression/testDir/7.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/data/LinearRegression/testDir/8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/data/LinearRegression/trainingDir/0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/data/LogisticRegression/testDir/0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/data/LogisticRegression/testDir/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/data/LogisticRegression/trainingDir/0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/data/kmeans/testDir/0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/data/kmeans/testDir/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/data/kmeans/testDir/2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/data/kmeans/trainingDir/0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/HBase" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/RDD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/SQL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/SparkMLLib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/SparkSQL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/SparkStreaming" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/hadoop" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/hive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/sqoop" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/sparkLab/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kafka/KafkaConsumer.java" afterPath="$PROJECT_DIR$/src/Kafka/KafkaConsumer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SparkStreaming/KafkaWordCount.scala" afterPath="$PROJECT_DIR$/src/SparkStreaming/KafkaWordCount.scala" />
     </list>
     <ignored path="sparkLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -216,11 +35,9 @@
         <entry file="file://$PROJECT_DIR$/src/Kafka/KafkaProducer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1988#1989#0" expanded="true" />
-                <element signature="e#2024#2025#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -236,11 +53,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqoop" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sqoop" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/document/sqoop">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4107143">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Kafka/KafkaConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaWordCount.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SparkStreaming/KafkaWordCount.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.1655844">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -293,14 +130,14 @@
         <option value="$PROJECT_DIR$/src/SparkMLlib/StreamingLinearRegression.scala" />
         <option value="$PROJECT_DIR$/src/SparkMLlib/StreamingLogisticRegression.scala" />
         <option value="$PROJECT_DIR$/src/StreamingMLLib/StreamingLogisticRegression.scala" />
-        <option value="$PROJECT_DIR$/src/SparkStreaming/KafkaWordCount.scala" />
         <option value="$PROJECT_DIR$/src/Kafka/ConsumerMsgTask.java" />
         <option value="$PROJECT_DIR$/src/Kafka/ConsumerDemo.java" />
         <option value="$PROJECT_DIR$/src/Kafka/ProducerDemo.java" />
-        <option value="$PROJECT_DIR$/src/Kafka/KafkaConsumer.java" />
         <option value="$PROJECT_DIR$/src/Kafka/KafkaProducer.java" />
         <option value="$PROJECT_DIR$/Resources/document/kafka" />
         <option value="$PROJECT_DIR$/Resources/document/sqoop" />
+        <option value="$PROJECT_DIR$/src/Kafka/KafkaConsumer.java" />
+        <option value="$PROJECT_DIR$/src/SparkStreaming/KafkaWordCount.scala" />
       </list>
     </option>
   </component>
@@ -335,13 +172,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="sparkLab" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -378,7 +218,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SparkStreaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kafka" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -395,22 +257,19 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="document" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="D:/HADOOP_Project/kafka_lib/kafka_2.10-0.8.1.1.jar!/" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32528734" />
     <property name="dynamic.classpath" value="true" />
@@ -944,7 +803,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466751051202</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2016-6-23 添加sqoop命令解释文档">
+      <created>1466760383195</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1466760383196</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -953,26 +818,26 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27286822" sideWeight="0.49701047" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.50298953" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42635658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22254759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19180088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4883721" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27286822" sideWeight="0.49701047" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42635658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46821705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4883721" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1023,7 +888,8 @@
     <MESSAGE value="Kafka-Producer/Consumer简单示例程序0" />
     <MESSAGE value="2016-6-23 创建项目记录文档（Kafkax相关）" />
     <MESSAGE value="2016-6-23 整理Kafka集群运行示例文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-6-23 整理Kafka集群运行示例文档" />
+    <MESSAGE value="2016-6-23 添加sqoop命令解释文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-6-23 添加sqoop命令解释文档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1174,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,9 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5146104">
           <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-          <folding>
-            <element signature="e#18#56#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,7 +1061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3487859">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,7 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08577406">
           <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,7 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,9 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="e#24#57#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1240,9 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#57#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,15 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/StreamingKMeansExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6428572">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,17 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SparkStreaming/KafkaWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#48#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,34 +1148,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kafka/KafkaConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="16" />
-          <folding>
-            <element signature="e#1755#1756#0" expanded="false" />
-            <element signature="e#1791#1792#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kafka/KafkaProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1988#1989#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/data/LogisticRegression/testDir/0.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1350,7 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1358,7 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1366,7 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1374,7 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1382,7 +1187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1390,7 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1398,7 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1406,6 +1208,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/StreamingKMeansExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5519481">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/document/sqoop">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1418,10 +1234,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/document/sqoop">
+    <entry file="file://$PROJECT_DIR$/src/Kafka/KafkaConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4107143">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kafka/KafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SparkStreaming/KafkaWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1655844">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
