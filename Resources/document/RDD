@@ -1,0 +1,8 @@
+1 RDD的创建方式
+  （1）从Hadoop文件系统（或与Hadoop兼容的的其他持久化存储系统，如Hive、Cassandra、HBase）输入（如:HDFS）创建
+  （2）从父RDD转换得到新RDD
+  （3）通过parallelize或makeRDD将单机数据创建为分布式RDD
+2 RDD的两种操作算子
+
+
+3 RDD的重要内部属性
