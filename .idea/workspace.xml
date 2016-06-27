@@ -8,8 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kafka/KafkaConsumer.java" afterPath="$PROJECT_DIR$/src/Kafka/KafkaConsumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SparkStreaming/KafkaWordCount.scala" afterPath="$PROJECT_DIR$/src/SparkStreaming/KafkaWordCount.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/document/sqoop" afterPath="$PROJECT_DIR$/Resources/document/sqoop" />
     </list>
     <ignored path="sparkLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +36,8 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1988#1989#0" expanded="false" />
+                <element signature="e#2024#2025#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqoop" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sqoop" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Resources/document/sqoop">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.37337664">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,16 +68,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1757#1758#0" expanded="false" />
+                <element signature="e#1793#1794#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KafkaWordCount.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KafkaWordCount.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SparkStreaming/KafkaWordCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1655844">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,9 +139,9 @@
         <option value="$PROJECT_DIR$/src/Kafka/ProducerDemo.java" />
         <option value="$PROJECT_DIR$/src/Kafka/KafkaProducer.java" />
         <option value="$PROJECT_DIR$/Resources/document/kafka" />
-        <option value="$PROJECT_DIR$/Resources/document/sqoop" />
         <option value="$PROJECT_DIR$/src/Kafka/KafkaConsumer.java" />
         <option value="$PROJECT_DIR$/src/SparkStreaming/KafkaWordCount.scala" />
+        <option value="$PROJECT_DIR$/Resources/document/sqoop" />
       </list>
     </option>
   </component>
@@ -172,6 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -258,11 +264,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="document" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -809,7 +831,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466760383196</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2016-6-25 添加修改KafkaWordCount.scala，程序里面包含Kafka-Producer（随机生成1-100之间的数字），单词统计">
+      <created>1466845129456</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1466845129456</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -889,7 +917,8 @@
     <MESSAGE value="2016-6-23 创建项目记录文档（Kafkax相关）" />
     <MESSAGE value="2016-6-23 整理Kafka集群运行示例文档" />
     <MESSAGE value="2016-6-23 添加sqoop命令解释文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-6-23 添加sqoop命令解释文档" />
+    <MESSAGE value="2016-6-25 添加修改KafkaWordCount.scala，程序里面包含Kafka-Producer（随机生成1-100之间的数字），单词统计" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-6-25 添加修改KafkaWordCount.scala，程序里面包含Kafka-Producer（随机生成1-100之间的数字），单词统计" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1218,14 +1247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/document/sqoop">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/document/kafka">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1238,7 +1259,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1757#1758#0" expanded="false" />
+            <element signature="e#1793#1794#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1247,15 +1272,24 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1988#1989#0" expanded="false" />
+            <element signature="e#2024#2025#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkStreaming/KafkaWordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1655844">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/document/sqoop">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37337664">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

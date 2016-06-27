@@ -1,10 +1,14 @@
-（1）
+（1）将从Oracle数据库中查询出来的数据导入到hive数据仓库中
 sqoop import --append --connect jdbc:oracle:thin:@10.2.8.223:1521:bitbizdb --username ccdm --password ccdmsiat
 --query "select rid,mpi_person_id,visitor_date,replace(out_diag,'
 ','')  from OUTCLINICAL_DIAG0530 where \$CONDITIONS"
 --num-mappers 1 --target-dir /user/hive/warehouse/word/ --fields-terminated-by "\001"
 
 sqoop import 参数解释：
+
+replace(out_diag,'
+','')针对out_diag字段，将里面的换行转化为''空
+
 --append
 --connect
 --username
@@ -13,7 +17,7 @@ sqoop import 参数解释：
 --num-mappers
 --fields-terminated-by
 
-（2）
+（2）数据从Oracle数据库导入到hive数据仓库中
 sqoop import --append --connect jdbc:oracle:thin:@10.2.8.223:1521:bitbizdb --username ccdm
 --password ccdmsiat --table NAME --num-mappers 1 --target-dir /user/hive/warehouse/out
 --fields-terminated-by "|$|"
@@ -27,11 +31,12 @@ sqoop import 参数解释：
 --target-dir
 --fields-terminated-by
 
-（3）
+（3）数据从hive数据仓库导出到Oracle数据库
 sqoop export --connect jdbc:oracle:thin:@10.2.8.223:1521:CCDM --username ccdm
 --password ccdmsiat --null-string ''
 --table TMP
---columns "mpi_person_id,org_code,person_id_cd,person_id,out_sno,visitor_date,diag_sno_new,diag_type_code,dept_name,diag_code,diag_name" --export-dir /user/hive/warehouse/bitdb.db/tmp --input-fields-terminated-by '\001'
+--columns "mpi_person_id,org_code,person_id_cd,person_id,out_sno,visitor_date,diag_sno_new,diag_type_code,dept_name,diag_code,diag_name"
+--export-dir /user/hive/warehouse/bitdb.db/tmp --input-fields-terminated-by '\001'
 
 sqoop export 参数解释：
 --connect
