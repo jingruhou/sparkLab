@@ -46,4 +46,25 @@ sqoop export 参数解释：
 --table
 --columns
 
+Sqoop命令详解：
+（0）进入到对应的目录
+cd /opt/cloudera/parcels/CDH/lib/sqoop/bin
+
+（1）列出mysql数据库中的所有数据库
+sqoop list-databases --connect jdbc:mysql://192.168.13.131:3306/ -username zkjz -password zkjz_Spark67
+
+(2)连接mysql并列出zkjzDB数据库中的表
+sqoop list-tables --connect jdbc:mysql://192.168.13.131:3306/zkjzDB -username zkjz -password zkjz_Spark67
+
+其中zkjzDB为mysql数据库的zkjzDB数据库名称
+
+创建表结构---（复制mysql里面对应数据库的表的结构到hive里面）
+（3）将关系型数据的表结构复制到hive中,只是复制表的结构，表中的内容没有复制过去
+sqoop create-hive-table -connect jdbc:mysql://192.168.13.131:3306/zkjzDB -table zkjzUser -username zkjz -password zkjz_Spark67 -hive-table zkjzUser
+
+参数释义：
+-table zkjzUser （为mysql中的数据库zkjzDB中的表）
+-hive-table zkjzUser（为hive中新建表的名称）
+
+（4）从关系数据库导入文件（数据）到hive（表）中
 

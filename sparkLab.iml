@@ -12,6 +12,6 @@
     <orderEntry type="library" name="hadoop-common-2.6.0-cdh5.7.0" level="project" />
     <orderEntry type="library" name="spark-assembly-1.6.0-cdh5.7.0-hadoop2.6.0-cdh5.7.0" level="project" />
     <orderEntry type="library" name="accumulo-core-1.6.0" level="project" />
-    <orderEntry type="library" name="kafka_2.10-0.8.1.1" level="project" />
+    <orderEntry type="library" name="commons-beanutils-1.7.0" level="project" />
   </component>
 </module>
