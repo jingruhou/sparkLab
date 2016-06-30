@@ -1,4 +1,4 @@
-package business
+package Business
 
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.{SparkContext, SparkConf}
@@ -14,8 +14,6 @@ object diag0 {
     // 0 加载原始数据
     val outclinical_diag2 = sc.textFile("D:/streamingData/diag/outclinical_diag2.txt")
     val outclinical_words0616 = sc.textFile("D:/streamingData/diag/outclinical_words0616.txt")
-
-
 
     // 1 数据采样
     outclinical_diag2.take(10).foreach(println)
@@ -57,16 +55,6 @@ object diag0 {
 
     outclinical_diag2_df.show()
     outclinical_words0616_df.show()
-
-
-
-
-
-
-
-
-
-
 
 
   }

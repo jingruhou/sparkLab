@@ -6,36 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/kafkaMessageGenerator_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_1_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/submit" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kafka/KafkaMessageGenerator.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Kafka/PageViewStream.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SparkStreaming/KafkaSparkStreamingSpec.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SparkStreaming/onlineKMeans.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/business/diag0.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/producer_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/kafka_2_10_0_8_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/sparkLab/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/Kafka/KafkaConsumer.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/Kafka/KafkaConsumer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$1.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$2.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$3.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$4.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$5.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$6.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$$anonfun$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCountProducer$$anonfun$main$1$$anonfun$7.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCountProducer$$anonfun$main$1$$anonfun$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCountProducer$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCountProducer$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCountProducer$.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCountProducer$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="2016-6-29 添加hive document；添加bussiness/diag（门诊诊断相关的业务逻辑测试代码）">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SparkStreaming/clickstream/PageViewGenerator.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SparkStreaming/clickstream/PageViewStream.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/document/RDD" afterPath="$PROJECT_DIR$/Resources/document/RDD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/document/hive" afterPath="$PROJECT_DIR$/Resources/document/hive" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/document/sqoop" afterPath="$PROJECT_DIR$/Resources/document/sqoop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sparkLab.iml" afterPath="$PROJECT_DIR$/sparkLab.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/business/diag0.scala" afterPath="$PROJECT_DIR$/src/business/diag0.scala" />
     </list>
     <ignored path="sparkLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,18 +37,44 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#24#48#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="diag0.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/business/diag0.scala">
+      <file leaf-file-name="diag0.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Business/diag0.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8214286">
-              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="e#18#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageViewGenerator.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SparkStreaming/clickstream/PageViewGenerator.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+              <folding>
+                <element signature="e#36#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageViewStream.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SparkStreaming/clickstream/PageViewStream.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63474023">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#36#96#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,7 +105,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="28" column="31" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="33" />
-              <folding />
+              <folding>
+                <element signature="e#19#57#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,6 +178,9 @@
         <option value="$PROJECT_DIR$/Resources/document/RDD" />
         <option value="$PROJECT_DIR$/src/business/diag0.scala" />
         <option value="$PROJECT_DIR$/Resources/document/hive" />
+        <option value="$PROJECT_DIR$/src/Business/diag0.scala" />
+        <option value="$PROJECT_DIR$/src/SparkStreaming/clickstream/PageViewGenerator.scala" />
+        <option value="$PROJECT_DIR$/src/SparkStreaming/clickstream/PageViewStream.scala" />
       </list>
     </option>
   </component>
@@ -217,6 +223,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,6 +274,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="SparkStreaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SparkStreaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clickstream" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="SparkSQL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -285,7 +332,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
+              <option name="myItemId" value="Business" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,30 +347,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="document" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="NBKnowledgePane" />
     </panes>
@@ -352,47 +380,7 @@
       <recent name="D:\sparkLab\Resources\image" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.diag0">
-    <configuration default="false" name="StreamingLinearRegressionExample" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="StreamingMLLib.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="StreamingMLLib.StreamingLinearRegressionExample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sparkLab" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="StreamingLinearRegression" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="StreamingMLLib.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="StreamingMLLib.StreamingLinearRegression" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="Resources\data\LinearRegression\trainingDir Resources\data\LinearRegression\testDir 5 2" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sparkLab" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.PageViewStream">
     <configuration default="false" name="StreamingLogisticRegression" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -436,14 +424,54 @@
     <configuration default="false" name="diag0" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="business.*" />
+          <option name="PATTERN" value="Business.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="business.diag0" />
+      <option name="MAIN_CLASS_NAME" value="Business.diag0" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparkLab" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PageViewGenerator" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SparkStreaming.clickstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="SparkStreaming.clickstream.PageViewGenerator" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="8341 1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparkLab" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PageViewStream" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SparkStreaming.clickstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="SparkStreaming.clickstream.PageViewStream" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="errorRatePerZipCode localhost 44444" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -762,19 +790,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StreamingLinearRegressionExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StreamingLinearRegression" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StreamingLogisticRegression" />
-      <item index="3" class="java.lang.String" itemvalue="Application.KafkaProducer" />
-      <item index="4" class="java.lang.String" itemvalue="Application.diag0" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StreamingLogisticRegression" />
+      <item index="1" class="java.lang.String" itemvalue="Application.KafkaProducer" />
+      <item index="2" class="java.lang.String" itemvalue="Application.diag0" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PageViewGenerator" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PageViewStream" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.diag0" />
-        <item index="1" class="java.lang.String" itemvalue="Application.KafkaProducer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StreamingLogisticRegression" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StreamingLinearRegression" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StreamingLinearRegressionExample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PageViewStream" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PageViewGenerator" />
+        <item index="2" class="java.lang.String" itemvalue="Application.diag0" />
+        <item index="3" class="java.lang.String" itemvalue="Application.KafkaProducer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StreamingLogisticRegression" />
       </list>
     </recent_temporary>
   </component>
@@ -884,7 +912,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466993024353</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2016-6-29 添加hive document；添加bussiness/diag（门诊诊断相关的业务逻辑测试代码）">
+      <created>1467189592092</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1467189592092</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -899,7 +933,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31007752" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44341084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19106881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -967,7 +1001,8 @@
     <MESSAGE value="2016-6-23 添加sqoop命令解释文档" />
     <MESSAGE value="2016-6-25 添加修改KafkaWordCount.scala，程序里面包含Kafka-Producer（随机生成1-100之间的数字），单词统计" />
     <MESSAGE value="2016-6-27 添加sqoop document，解释相关sqoop参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-6-27 添加sqoop document，解释相关sqoop参数" />
+    <MESSAGE value="2016-6-29 添加hive document；添加bussiness/diag（门诊诊断相关的业务逻辑测试代码）" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-6-29 添加hive document；添加bussiness/diag（门诊诊断相关的业务逻辑测试代码）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -984,51 +1019,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/spark-1.6.0/core/src/main/scala/org/apache/spark/scheduler/Task.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33518004">
-          <caret line="104" column="7" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/spark-1.6.0/core/src/main/scala/org/apache/spark/TaskContextImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5263158">
-          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/spark-1.6.0/mllib/src/main/scala/org/apache/spark/mllib/util/MLUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03891709">
-          <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/spark-1.6.0/core/src/main/scala/org/apache/spark/SparkContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73265654">
-          <caret line="2057" column="0" selection-start-line="2057" selection-start-column="0" selection-end-line="2057" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/spark-1.6.0/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26565143">
-          <caret line="323" column="25" selection-start-line="323" selection-start-column="25" selection-end-line="323" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/image/A1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/image/A2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/image/T1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1083,13 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3487859">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/spark-1.6.0/streaming/src/main/scala/org/apache/spark/streaming/StreamingContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14610389">
-          <caret line="437" column="79" selection-start-line="437" selection-start-column="79" selection-end-line="437" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -1251,9 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="80" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
-          <folding>
-            <element signature="e#15#52#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1261,9 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-          <folding>
-            <element signature="e#15#58#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1278,7 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22402598">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,7 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7012987">
           <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,7 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2987013">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,9 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03733766">
           <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-          <folding>
-            <element signature="e#24#48#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1312,7 +1283,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#24#48#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1320,7 +1293,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="31" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="e#19#57#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1340,12 +1315,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/business/diag0.scala">
+    <entry file="file://$PROJECT_DIR$/src/Business/diag0.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8214286">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="e#18#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/cdh5.7_jars/jars/spark-assembly-1.6.0-cdh5.7.0-hadoop2.6.0-cdh5.7.0.jar!/scala/Predef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34863946">
+          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="465" column="55" selection-start-line="465" selection-start-column="11" selection-end-line="465" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/src.zip!/java/io/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78084415">
+          <caret line="312" column="25" selection-start-line="312" selection-start-column="25" selection-end-line="312" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/src.zip!/java/io/PrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33279222">
+          <caret line="315" column="23" selection-start-line="315" selection-start-column="4" selection-end-line="315" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SparkStreaming/clickstream/PageViewGenerator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding>
+            <element signature="e#36#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/spark-1.6.0/examples/src/main/scala/org/apache/spark/examples/streaming/StreamingExamples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321739">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/spark-1.6.0/streaming/src/main/scala/org/apache/spark/streaming/StreamingContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321739">
+          <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SparkStreaming/clickstream/PageViewStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63474023">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#36#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
