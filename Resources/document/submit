@@ -1,5 +1,5 @@
 向集群提交Jar包：
-./spark-sunmit  --master spark://sparker001:7077 --class zkjz.hjr.SQL.zkjz6 --executor-memory  100G /home/sparker/001.jar
+./spark-submit  --master spark://sparker001:7077 --class zkjz.hjr.SQL.zkjz6 --executor-memory  100G /home/sparker/001.jar
 或
 ./spark-sunmit  \
 --master spark://sparker001:7077 \
@@ -11,3 +11,4 @@
 （2）主类
 （3）执行内存
 （4）jar包路径
+
