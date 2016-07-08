@@ -1,7 +1,7 @@
-sqoop export --connect jdbc:oracle:thin:@10.2.8.223:1521:CCDM --username ccdm --password ccdmsiat --null-string '' --table RESULT_GROUP_SPLIT --columns "mpi_person_id,visitor_date,out_diag" --export-dir /user/hive/warehouse/hjr/splitNullResults/part-00000 --input-fields-terminated-by '\t'
+sqoop export --connect jdbc:oracle:thin:@10.2.8.223:1521:bitbizdb --username ccdm --password ccdmsiat --null-string '' --table RESULT_GROUP_SPLIT --columns "mpi_person_id,visitor_date,out_diag" --export-dir /user/hive/warehouse/hjr/splitNullResults/part-00000 --input-fields-terminated-by '\t'
 
 sqoop export
---connect jdbc:oracle:thin:@10.2.8.223:1521:CCDM   //Oracle服务地址、端口、服务名称
+--connect jdbc:oracle:thin:@10.2.8.223:1521:bitbizdb   //Oracle服务地址、端口、服务名称
 --username ccdm
 --password ccdmsiat
 --null-string ''
