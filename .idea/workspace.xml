@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/document/RDD" afterPath="$PROJECT_DIR$/Resources/document/RDD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SparkRDD/Transformations/rdd1.scala" afterPath="$PROJECT_DIR$/src/SparkRDD/Transformations/rdd1.scala" />
     </list>
     <ignored path="sparkLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +54,8 @@
       <file leaf-file-name="rdd1.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SparkRDD/Transformations/rdd1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9354067">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.5502392">
+              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -950,7 +948,13 @@
       <option name="project" value="LOCAL" />
       <updated>1467969242905</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2016-7-9 添加RDD丙型集合操作实例">
+      <created>1468046805859</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1468046805859</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1014,7 +1018,8 @@
     <MESSAGE value="2016-6-30 添加QueueStream,运行成功" />
     <MESSAGE value="2016-7-7 设计实现业务：统计日志文件中本周末网购停留总时间超过2个小时的女性网名信息" />
     <MESSAGE value="2016-7-7 添加RDD算子flatmap操作示例" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-7-7 添加RDD算子flatmap操作示例" />
+    <MESSAGE value="2016-7-9 添加RDD丙型集合操作实例" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-7-9 添加RDD丙型集合操作实例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1393,8 +1398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkRDD/Transformations/rdd1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9354067">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.5502392">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
           <folding />
         </state>
       </provider>
