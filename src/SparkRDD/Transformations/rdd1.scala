@@ -33,12 +33,17 @@ object rdd1 {
     println(distData.reduce((a, b)=> a + b))
     println(distData.reduce((_+_)))
 
-    /**
-      * flatmap算子操作实例
-      */
+
     val data = sc.textFile("Resources/data/1.txt")
     data.foreach(println)
 
+    /**
+      * map算子操作实例
+      */
+    data.map(line =>line).foreach(println)
+    /**
+      * flatmap算子操作实例
+      */
     data.flatMap(line =>{
       line.split("\t")(2).split(",").map(codeline =>{line.split("\t")(0)+"\t"+line.split("\t")(1)+"\t"+codeline})
     }).foreach(println)
