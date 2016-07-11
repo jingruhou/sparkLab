@@ -13,4 +13,4 @@ shuffle过程中，各个节点上的相同key都会先写入本地磁盘文件�
 
 因此在我们的开发过程中，能避免则尽可能避免使用reduceByKey、join、distinct、repartition等
 会进行shuffle的算子，尽量使用map类的非shuffle算子。
-这样的话，没有shuffle操作或者仅有较少shuffle操作的Spark作业，可以大大减少性能开销。
+这样的话，没有shuffle操作或者仅有较少shuffle操作的Spark作业，可以大大减少性能开销

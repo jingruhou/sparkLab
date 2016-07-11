@@ -12,3 +12,12 @@
 （3）执行内存
 （4）jar包路径
 
+./bin/spark-submit \
+  --master yarn-cluster \
+  --num-executors 100 \
+  --executor-memory 5G \
+  --executor-cores 4 \
+  --driver-memory 1G \
+  --conf spark.default.parallelism=1000 \
+  --conf spark.storage.memoryFraction=0.5 \
+  --conf spark.shuffle.memoryFraction=0.3 \
