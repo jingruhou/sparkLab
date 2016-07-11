@@ -35,6 +35,7 @@ object SimpleStreamingModel {
     // train and test model on the stream, and print predictions for illustrative purposes
     model.trainOn(labeledStream)
     //打印每一个流的预测值
+
     //model.predictOn(labeledStream).print()
 
 
