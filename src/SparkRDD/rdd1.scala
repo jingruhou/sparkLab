@@ -15,12 +15,12 @@ object rdd1 {
     val sc = new SparkContext(conf)
 
     val n = 2000000
-    val composite = sc.parallelize(2 to n)
+    val composite = sc.parallelize(2 to n, 8)
       .map(x => (x, (2 to(n / x))))
       .flatMap(kv => kv._2.map(_ * kv._1))
 
 
-    val prime = sc.parallelize(2 to n)
+    val prime = sc.parallelize(2 to n, 8)
       .subtract(composite)
 
     //prime.foreach(println)
