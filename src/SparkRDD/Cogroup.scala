@@ -41,5 +41,16 @@ object Cogroup {
     +-(3) MapPartitionsRDD[3] at map at Cogroup.scala:19 []
     |  ParallelCollectionRDD[1] at parallelize at Cogroup.scala:14 []
     */
+
+    val data1 = sc.parallelize(List((1, "zkjz"), (2, "kmust")))
+    val data2 = sc.parallelize(List((1, "yiyou"), (2, "yiyou"), (3, "very")))
+    val data3 = sc.parallelize(List((1, "houjingruru"), (2, "houjingru"), (3, "good")))
+    val result1 = data1.cogroup(data2, data3)
+    result1.collect.foreach(println)
+    /*
+    (1,(CompactBuffer(zkjz),CompactBuffer(yiyou),CompactBuffer(houjingruru)))
+    (3,(CompactBuffer(),CompactBuffer(very),CompactBuffer(good)))
+    (2,(CompactBuffer(kmust),CompactBuffer(yiyou),CompactBuffer(houjingru)))
+    */
   }
 }
