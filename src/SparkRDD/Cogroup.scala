@@ -52,5 +52,7 @@ object Cogroup {
     (3,(CompactBuffer(),CompactBuffer(very),CompactBuffer(good)))
     (2,(CompactBuffer(kmust),CompactBuffer(yiyou),CompactBuffer(houjingru)))
     */
+    //从上面的结果可以看到，data1中不存在Key为3的元素（自然就不存在Value了），
+    // 在组合的过程中将data1对应的位置设置为CompactBuffer()了，而不是去掉了
   }
 }
