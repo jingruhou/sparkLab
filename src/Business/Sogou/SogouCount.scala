@@ -43,6 +43,7 @@ object SogouCount {
       * 这种方式是将所有数据放到collect里面去的，然后再循环遍历打印出来
       * 数据量不大的话（几十万条），可以做此选择；
       * 如果有千万条数据的话，不建议使用
+      * 超过了java/scala中Array的最大长度限制
       */
     data.collect().take(10).foreach(println)
     /**
