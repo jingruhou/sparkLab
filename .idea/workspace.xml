@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/pdf/rdd-api.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/spark" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/pdf/(spark作者博士论文)大型集群上的快速和通用数据处理架构.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sparkLab.iws" />
@@ -86,8 +85,8 @@
       <file leaf-file-name="SogouCount.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Business/Sogou/SogouCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1965812">
-              <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.6683761">
+              <caret line="95" column="58" selection-start-line="95" selection-start-column="58" selection-end-line="95" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -1026,15 +1025,22 @@
       <option name="project" value="LOCAL" />
       <updated>1468403188312</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="2016-7-15 添加rdd-api.pdf">
+      <created>1468548805718</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1468548805718</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="5" width="1344" height="723" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28217053" sideWeight="0.49701047" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.50298953" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1042,13 +1048,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17695783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17695783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28217053" sideWeight="0.49701047" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1070,7 +1075,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-6-17 添加DataFrame.scala,简单操作DataFrame" />
     <MESSAGE value="2016-6-17 添加Reflection.scala,简单操作DataFrame" />
     <MESSAGE value="2016-6-22 测试SparkStreaming的官网例子--StreamingKMeansExample--(程序跑起来之后，给预测文件夹里面添加数据的话，会报错：参数异常)" />
     <MESSAGE value="2016-6-23 测试SparkStreaming的官网例子--StreamingKMeansExample--成功运行！（注意：trainingDir testDir目录里面的数据格式：To run on your local machine using the two directories `trainingDir` and `testDir`,with updates every 5 seconds, 2 dimensions per data point, and 3 clusters, call:$ bin/run-example mllib.StreamingKMeansExample trainingDir testDir 5 3 2）（最后一个参数：每一个数据点的维度，例如：[0.2,0.2,0.2]这个数据点的维度就是3）" />
@@ -1095,7 +1099,8 @@
     <MESSAGE value="2016-7-12 添加Sample.scala和Cogroup.scala例子" />
     <MESSAGE value="2016-7-13 添加KafkaDoc" />
     <MESSAGE value="2016-7-13 添加LogQuery" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-7-13 添加LogQuery" />
+    <MESSAGE value="2016-7-15 添加rdd-api.pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-7-15 添加rdd-api.pdf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1467,8 +1472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Business/Sogou/SogouCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1965812">
-          <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.6683761">
+          <caret line="95" column="58" selection-start-line="95" selection-start-column="58" selection-end-line="95" selection-end-column="58" />
           <folding />
         </state>
       </provider>
