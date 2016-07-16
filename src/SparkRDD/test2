@@ -1,0 +1,24 @@
+package SparkRDD
+
+import org.apache.spark.{SparkContext, SparkConf}
+
+/**
+  * Created by Administrator on 2016/7/16.
+  */
+object test2 {
+  def main(args: Array[String]): Unit = {
+    for (i <- 1 to 10)
+      println(i)
+
+    print("======================\n")
+
+    val conf = new SparkConf()
+    conf.setMaster("local").setAppName("MyFirstSparkAPP")
+    val sc = new SparkContext(conf)
+    val line = sc.textFile("D:/spark-1.6.0/examples/src/main/resources/people.txt")
+    //val line = sc.textFile("E:mware.log")
+
+    line.flatMap(_.split(" ")).map((_, 1)).reduceByKey(_+_).collect().foreach(println)
+    sc.stop()
+  }
+}
