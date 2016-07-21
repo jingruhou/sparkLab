@@ -1,0 +1,76 @@
+Hadoop实战+超大集群调优
+课程观看地址：http://www.xuetuwuyou.com/course/97
+课程出自学途无忧网：http://www.xuetuwuyou.com
+
+课程使用到的软件：
+　　apache-maven-3.0.5-bin.tar.gz
+　　eclipse-jee-kepler-R-win32-x86_64
+　　hadoop-1.1.2.tar.gz
+　　hadoop-2.5.0-cdh5.2.0-src.tar.gz
+　　hadoop-2.5.0-cdh5.2.0.tar.gz
+　　hive-0.13.1-cdh5.2.0.tar.gz
+　　jdk-7u67-linux-x64.tar.gz
+　　jdk-7u79-linux-i586.gz
+　　PieTTY 0.3.26.exe
+　　protobuf-2.5.0.tar.gz
+　　SecureCRT.zip
+　　VMWare10
+　　CentOS
+　　zookeeper-3.4.5-cdh5.2.0.tar.gz
+
+第一阶段：hadoop入门学习
+
+第00讲：课程概述
+第1讲：hadoop1入门-HDFS架构
+第2讲：hadoop1入门-HDFS副本存放策略
+第3讲：hadoop1入门-mapreduce架构
+第4讲：hadoop1入门-生产环境分布
+第5讲：hadoop1伪分布搭建（1）
+第6讲：hadoop1伪分布搭建（2）
+第7讲：Mapreduce1运行过程详解
+
+第三阶段：HDFS API开发和RPC框架介绍
+
+第19讲：hadoop2伪分布搭建和maven工程搭建
+第20讲：URL操作HDFS
+第21讲: FileSystem操作HDFS（1）
+第22讲：FileSystem操作HDFS（2）
+第23讲：HDFS使用伪装用户
+第24讲：获取HDFS集群信息
+第25讲：HDFS案例演示
+第26讲：RPC例子演示
+第27讲：Namenode源码导读
+第28讲：HDFS读写文件过程总结
+
+第四阶段：Mapreduce开发
+
+第29讲：MapReduce-键值对变化
+第30讲：Mapreduce-WordCount例子演示
+第31讲：MapReduce-Shuffle详解
+第32讲：MapReduce-TOOL优化
+第33讲：MapReduce-自定义计数器
+第34讲：MapReduce-Map数和Reduce数设置
+第35讲：MapReduce-最大值算法
+第36讲：MapReduce-combine使用
+第37讲：Mapreduce-TopN算法
+第38讲：Mapreduce-自定义数据类型（手机流量）
+第39讲：Mapreduce-自定义分区（1）
+第40讲：Mapreduce-自定义分区（2）
+第41讲：Mapreduce-二次排序
+
+第五阶段：超大集群调优
+
+第42讲：集群时间同步
+第43讲：句柄数设置
+第44讲：HDFS回收站配置
+第45讲：配额管理
+第46讲：Yarn资源配置
+第47讲：日志管理
+第48讲：本地库编译
+第49讲：压缩格式介绍
+第50讲：文件格式介绍
+第51讲：YARN调度器配置
+第52讲：Linux参数配置
+第53讲：HDFS参数配置
+第54讲：Mapreduce参数配置
+第55讲：hadoop3新功能介绍
