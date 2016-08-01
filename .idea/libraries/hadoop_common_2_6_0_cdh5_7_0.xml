@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="hadoop-common-2.6.0-cdh5.7.0">
     <CLASSES>
-      <root url="jar://D:/cdh5.7_jars/jars/hadoop-common-2.6.0-cdh5.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../jars/hadoop-common-2.6.0-cdh5.7.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
