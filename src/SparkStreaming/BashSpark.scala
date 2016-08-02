@@ -8,12 +8,20 @@ import org.apache.spark.{SparkConf, SparkContext}
   * Created by Administrator on 2016/8/1 0001.
   */
 object BashSpark {
+
+  /**
+    * case class 定义
+    * @param raw
+    */
   case class alert(raw: String)
+  //入口main函数
   def main(args: Array[String]) {
 
-    val confspark = new SparkConf()
-      .setAppName("do Application")
+    //设置配置参数
+    val confspark = new SparkConf().setAppName("do Application")
+    //实例化SparkContext
     val sc = new SparkContext(confspark)
+    //实例化StreamingContext
     val ssc = new StreamingContext(sc, Milliseconds(500))
 
     // smallest largest
