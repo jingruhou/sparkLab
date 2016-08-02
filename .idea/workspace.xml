@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SparkStreaming/BashSpark.scala" afterPath="$PROJECT_DIR$/src/SparkStreaming/BashSpark.scala" />
     </list>
     <ignored path="sparkLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1179,7 +1178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470034406404</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="2016-8-2 添加BashSpark注释（）">
+      <created>1470132420397</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1470132420397</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1225,7 +1231,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-6-25 添加修改KafkaWordCount.scala，程序里面包含Kafka-Producer（随机生成1-100之间的数字），单词统计" />
     <MESSAGE value="2016-6-27 添加sqoop document，解释相关sqoop参数" />
     <MESSAGE value="2016-6-29 添加hive document；添加bussiness/diag（门诊诊断相关的业务逻辑测试代码）" />
     <MESSAGE value="2016-6-30 添加PageViewGenerator PageViewStream,运行成功（注意参数：metric的设置：&lt;metric&gt; must be one of pageCounts, slidingPageCounts，errorRatePerZipCode, activeUserCount, popularUsersSeen）" />
@@ -1250,7 +1255,8 @@
     <MESSAGE value="2016-7-16 添加CDH5.2.0离线安装文档" />
     <MESSAGE value="2016-7-21 新建阅读学习博客目录" />
     <MESSAGE value="2016-8-1 新建SparkStreaming案例：BashSpark" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-8-1 新建SparkStreaming案例：BashSpark" />
+    <MESSAGE value="2016-8-2 添加BashSpark注释（）" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-8-2 添加BashSpark注释（）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
