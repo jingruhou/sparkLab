@@ -1,0 +1,10 @@
+    Web Services 是应用程序组件
+    Web Services 使用开放协议进行通信
+    Web Services 是独立的（self-contained）并可自我描述
+    Web Services 可通过使用UDDI来发现
+    Web Services 可被其他应用程序使用
+    XML 是 Web Services 的基础
+
+    SOAP (简易对象访问协议)
+    UDDI (通用描述、发现及整合)
+    WSDL (Web services 描述语言)
