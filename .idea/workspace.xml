@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/WebService" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/cxf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sparkLab.iws" />
@@ -62,20 +62,28 @@
       <file leaf-file-name="BashSpark.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SparkStreaming/BashSpark.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="44">
               <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-              <folding>
-                <element signature="e#24#87#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebService" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebService" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/document/WebService">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cxf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resources/document/cxf">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -143,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Kafka/ConsumerMsgTask.java" />
         <option value="$PROJECT_DIR$/src/Kafka/ConsumerDemo.java" />
         <option value="$PROJECT_DIR$/src/Kafka/ProducerDemo.java" />
         <option value="$PROJECT_DIR$/src/Kafka/KafkaProducer.java" />
@@ -194,6 +201,7 @@
         <option value="$PROJECT_DIR$/Resources/java/object" />
         <option value="$PROJECT_DIR$/src/SparkStreaming/BashSpark.scala" />
         <option value="$PROJECT_DIR$/Resources/document/WebService" />
+        <option value="$PROJECT_DIR$/Resources/document/cxf" />
       </list>
     </option>
   </component>
@@ -631,7 +639,10 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -654,7 +665,10 @@
       <Profilers>
         <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -1215,7 +1229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470133050610</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="2016-8-3 添加WebService学习文档">
+      <created>1470215939622</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1470215939622</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1261,7 +1282,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-6-29 添加hive document；添加bussiness/diag（门诊诊断相关的业务逻辑测试代码）" />
     <MESSAGE value="2016-6-30 添加PageViewGenerator PageViewStream,运行成功（注意参数：metric的设置：&lt;metric&gt; must be one of pageCounts, slidingPageCounts，errorRatePerZipCode, activeUserCount, popularUsersSeen）" />
     <MESSAGE value="2016-6-30 添加QueueStream,运行成功" />
     <MESSAGE value="2016-7-7 设计实现业务：统计日志文件中本周末网购停留总时间超过2个小时的女性网名信息" />
@@ -1286,7 +1306,8 @@
     <MESSAGE value="2016-8-1 新建SparkStreaming案例：BashSpark" />
     <MESSAGE value="2016-8-2 添加BashSpark注释（）" />
     <MESSAGE value="2016-8-2 添加BashSpark注释（妮妲台风来袭）" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-8-2 添加BashSpark注释（妮妲台风来袭）" />
+    <MESSAGE value="2016-8-3 添加WebService学习文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-8-3 添加WebService学习文档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1303,13 +1324,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SparkSQL/Reflection.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/spark-1.6.0/mllib/src/main/scala/org/apache/spark/mllib/regression/StreamingLinearRegressionWithSGD.scala" />
     <entry file="file://$PROJECT_DIR$/Resources/data/collectApp/1">
       <provider selected="true" editor-type-id="text-editor">
@@ -1572,11 +1586,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkStreaming/BashSpark.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="44">
           <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="e#24#87#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1608,8 +1620,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/document/WebService">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/document/cxf">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding />
         </state>
       </provider>
