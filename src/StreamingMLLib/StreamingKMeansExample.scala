@@ -11,7 +11,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
   */
 object StreamingKMeansExample {
   /**
-    * 将数据输入路径写死
+    * 数据输入路径
     *
     * @param args
     */
