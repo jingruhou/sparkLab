@@ -109,6 +109,19 @@ object rdd0 {
     rdd5.collect
 
     val a = sc.parallelize(1 to 10000, 3)
+    /**
+      * rdd的sample算子操作
+      * Return a sampled subset of this RDD.
+      * 返回这个rdd的抽样的样本子集
+      * 参数一：是否有放回
+      * 参数二：待查...
+      * 参数三：随机数生成器的seed
+      * **param withReplacement can elements be sampled multiple times (replaced when sampled out)
+      * **param fraction expected size of the sample as a fraction of this RDD's size
+      *  without replacement: probability that each element is chosen; fraction must be [0, 1]
+      *  with replacement: expected number of times each element is chosen; fraction must be >= 0
+      * **param seed seed for the random number generator
+      */
     a.sample(false, 0.1, 0).count
 
     val rdd8 = rdd1.union(rdd3)
