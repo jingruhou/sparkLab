@@ -97,6 +97,14 @@ object rdd0 {
     val rdd4 = rdd3.flatMap(x => x to 20)
     rdd4.foreach(println)
 
+    /**
+      * rdd的mapPartitions算子操作
+      * Return a new RDD by applying a function to each partition of this RDD
+      * 返回一个新的RDD：（这个RDD来自于）将一个函数应用于这个RDD的每一个分区(partition)
+      * 其中：myfunc为自定义函数，myfunc的参数为Iterator迭代器，详见后面
+      *
+      * 注：日后继续详细学习mapPartitions算子
+      */
     val rdd5 = rdd1.mapPartitions(myfunc)
     rdd5.collect
 
