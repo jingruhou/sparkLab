@@ -134,7 +134,18 @@ object rdd0 {
       */
     val rdd8 = rdd1.union(rdd3)
     rdd8.collect
+    rdd8.foreach(println)
 
+    /**
+      * rdd的intersection算子操作
+      * * Return the intersection of this RDD and another one. The output will not contain any duplicate
+      * elements, even if the input RDDs did.
+      *
+      * Note that this method performs a shuffle internally.
+      * 返回这个rdd和另一个rdd的intersection结果（交集）构成的新的rdd
+      * 该intersection算子返回结果里面  将不包含任何重复的元素，
+      * 即使是输入的rdd里面有重复的元素，返回的结果里面也没有
+      */
     val rdd9 = rdd8.intersection(rdd1)
     rdd9.collect
 
