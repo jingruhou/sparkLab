@@ -14,7 +14,26 @@ object rdd0 {
       */
     val conf = new SparkConf().setAppName("rdd_Parallelize").setMaster("local[2]")
     /**
+      * 初始化Spark最重要的SparkContext对象，参数为SparkConf对象
+      * SparkContext是Spark“引擎”的主要入口
+      * 一个SparkContext呈现了一个Spark集群的连接，
+      * 并且用它来在一个集群上创建RDD、累加器和广播变量
       *
+      * 每一个jvm虚拟机仅仅只能有一个SparkContext对象是活跃的状态
+      * 你在创建一个新的SparkContext对象之前，必须使用“stop()”方法来停止这个SparkContext对象的活跃状态
+      * 这个限制可能在最终的版本中被移除，详见SPARK-2243
+      *
+      * 参数SparkConf对象/变量，“配置”了一个Spark配置对象，该对象描述了一个应用程序的配置
+      * 在这个配置对象里面的设置将覆盖默认的配置和系统属性
+      *
+      * Main entry point for Spark functionality. A SparkContext represents the connection to a Spark
+      * cluster, and can be used to create RDDs, accumulators and broadcast variables on that cluster.
+      *
+      * Only one SparkContext may be active per JVM.  You must `stop()` the active SparkContext before
+      * creating a new one.  This limitation may eventually be removed; see SPARK-2243 for more details.
+      *
+      * ***param config a Spark Config object describing the application configuration. Any settings in
+      *   this config overrides the default configs as well as system properties.
       */
     val sc = new SparkContext(conf)
 
@@ -26,6 +45,7 @@ object rdd0 {
     val distData = sc.parallelize(data, 3)
 
     /**
+      * 加载数据的几种方式：
       val distFile1 = sc.textFile("data.txt") // 本地当前目录下的文件
       val distFile2 = sc.textFile("hdfs://192.168.1.100:9000/input/data.txt") // HDFS 文件
       val distFile3 = sc.textFile("file:/input/data.txt") // 本地指定目录下的文件
@@ -56,8 +76,15 @@ object rdd0 {
       */
     rdd2.collect
 
+    /**
+      * rdd的filter算子操作
+      * Return a new RDD containing only the elements that satisfy a predicate.
+      * 返回 包含这个RDD里面 仅仅满足条件的元素 所构建的新的RDD
+      * 其中：x => x > 10为一个函数，具体详见scala语法
+      */
     val rdd3 = rdd2.filter(x => x > 10)
     rdd3.collect
+
     val rdd4 = rdd3.flatMap(x => x to 20)
 
     val rdd5 = rdd1.mapPartitions(myfunc)
