@@ -148,9 +148,16 @@ object rdd0 {
       */
     val rdd9 = rdd8.intersection(rdd1)
     rdd9.collect
+    rdd9.foreach(println)
 
+    /**
+      * rdd的distinct算子操作
+      * Return a new RDD containing the distinct elements in this RDD.
+      * 返回一个新的rdd：包含了原来rdd里面的所有独特的元素（没有重复值）
+      */
     val rdd10 = rdd8.union(rdd9).distinct
     rdd10.collect
+    rdd10.foreach(println)
 
     val rdd0 = sc.parallelize(Array((1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3)), 3)
     val rdd11 = rdd0.groupByKey()
