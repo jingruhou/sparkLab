@@ -61,7 +61,7 @@ object rdd0 {
       */
     val rdd1 = sc.parallelize(1 to 9, 3)
     /**
-      * 将rdd1进行map操作
+      * rdd的map算子操作
       * Return a new RDD by applying a function to all elements of this RDD
       * 应用一个函数给这个RDD的所有元素/每一个元素，并返回一个新的RDD
       * 其中：x => x * 2 为一个函数，具体了解scala语法
@@ -83,9 +83,19 @@ object rdd0 {
       * 其中：x => x > 10为一个函数，具体详见scala语法
       */
     val rdd3 = rdd2.filter(x => x > 10)
-    rdd3.collect
+    rdd3.collect.foreach(println)
 
+    /**
+      * rdd的flatMap算子操作
+      * Return a new RDD by first applying a function to all elements of this
+      * RDD, and then flattening the results.
+      * 返回一个新得RDD：（这个RDD来自于）首先将一个函数应用于这个RDD的所有元素/每一个元素，
+      * 然后在“扁平化”这个结果results
+      *
+      * 详查：flat扁平化操作
+      */
     val rdd4 = rdd3.flatMap(x => x to 20)
+    rdd4.foreach(println)
 
     val rdd5 = rdd1.mapPartitions(myfunc)
     rdd5.collect
