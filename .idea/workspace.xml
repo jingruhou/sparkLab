@@ -32,8 +32,8 @@
       <file leaf-file-name="rdd0.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="116" column="17" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="17" />
+            <state relative-caret-position="514">
+              <caret line="134" column="23" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -42,8 +42,8 @@
       <file leaf-file-name="RDD.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../SparkSource/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="467" column="5" selection-start-line="467" selection-start-column="5" selection-end-line="467" selection-end-column="5" />
+            <state relative-caret-position="194">
+              <caret line="587" column="6" selection-start-line="587" selection-start-column="6" selection-end-line="587" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -1064,7 +1064,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471085682099</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="2016-8-13 添加rdd0里面具体操作的详细注释：sample算子">
+      <created>1471086353831</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1471086353831</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1110,7 +1117,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-7-9 添加Shuffle过程说明文档" />
     <MESSAGE value="2016-7-11 添加StreamingMLLib/LinearRegression，本地执行&#10;Question: model.predictOn(labeledStream).print() 打印预测值有问题" />
     <MESSAGE value="2016-7-11 添加rdd1.scala---composite/subtract" />
     <MESSAGE value="2016-7-11 添加rdd1的执行过程截图：rdd1_stage0_Tasks.png/rdd1_stage1_Tasks.png/rdd1_Summary Metrics" />
@@ -1135,7 +1141,8 @@
     <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：filter算子操作" />
     <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：flatmap算子操作" />
     <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：mapPartitions算子" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-8-13 添加rdd0里面具体操作的详细注释：mapPartitions算子" />
+    <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：sample算子" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-8-13 添加rdd0里面具体操作的详细注释：sample算子" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1479,16 +1486,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../SparkSource/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="467" column="5" selection-start-line="467" selection-start-column="5" selection-end-line="467" selection-end-column="5" />
+        <state relative-caret-position="194">
+          <caret line="587" column="6" selection-start-line="587" selection-start-column="6" selection-end-line="587" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="116" column="17" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="17" />
+        <state relative-caret-position="514">
+          <caret line="134" column="23" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
           <folding />
         </state>
       </provider>

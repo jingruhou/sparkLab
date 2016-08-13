@@ -124,6 +124,14 @@ object rdd0 {
       */
     a.sample(false, 0.1, 0).count
 
+    /**
+      * rdd的union算子操作
+      * Return the union of this RDD and another one. Any identical elements will appear multiple
+      * times (use `.distinct()` to eliminate them).
+      * 返回这个rdd和另外一个rdd的union结果（并集）构成的新的rdd
+      * 该union算子返回结果里面 同一个元素将会出现多次
+      * 可以使用distinct()方法来消除（重复的元素）
+      */
     val rdd8 = rdd1.union(rdd3)
     rdd8.collect
 
