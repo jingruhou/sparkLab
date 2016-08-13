@@ -160,6 +160,18 @@ object rdd0 {
     rdd10.foreach(println)
 
     val rdd0 = sc.parallelize(Array((1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3)), 3)
+    /**
+      * rdd的groupByKey()算子操作
+      * 
+      * Group the values for each key in the RDD into a single sequence. Hash-partitions the
+      * resulting RDD with the existing partitioner/parallelism level. The ordering of elements
+      * within each group is not guaranteed, and may even differ each time the resulting RDD is
+      * evaluated.
+      *
+      * Note: This operation may be very expensive. If you are grouping in order to perform an
+      * aggregation (such as a sum or average) over each key, using [[org.apache.spark.rdd.PairRDDFunctions.aggregateByKey]]
+      * or [[org.apache.spark.rdd.PairRDDFunctions.reduceByKey]] will provide much better performance.
+      */
     val rdd11 = rdd0.groupByKey()
     rdd11.collect
 
