@@ -35,7 +35,7 @@ object Reflection {
       * Andy, 30
       * Justin, 19
       */
-    val people = sc.textFile("D:/sparkLab/Resources/data/people.txt")
+    val people = sc.textFile("Resources/data/people.txt")
       .map(_.split(","))
       .map(p => Person(p(0),(p(1).trim).toInt))
       .toDF()

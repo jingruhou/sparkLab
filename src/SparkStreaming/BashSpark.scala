@@ -1,6 +1,6 @@
 package SparkStreaming
 
-import com.cloudera.io.netty.handler.codec.string.StringDecoder
+import kafka.serializer.StringDecoder
 import org.apache.spark.streaming.kafka.KafkaUtils
 import org.apache.spark.streaming.{Milliseconds, StreamingContext}
 import org.apache.spark.{SparkConf, SparkContext}
@@ -18,7 +18,7 @@ object BashSpark {
   def main(args: Array[String]) {
 
     //设置配置参数
-    val confspark = new SparkConf().setAppName("do Application")
+    val confspark = new SparkConf().setAppName("do Application").setMaster("local[2]")
     //实例化SparkContext
     val sc = new SparkContext(confspark)
     //实例化StreamingContext

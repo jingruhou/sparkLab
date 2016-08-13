@@ -8,23 +8,52 @@ import org.apache.spark.{SparkContext, SparkConf}
   */
 object rdd0 {
   def main(args:Array[String]): Unit ={
-    val conf = new SparkConf().setAppName("rdd_Parallelize").setMaster("local")
+    /**
+      * Create a SparkConf that loads defaults from system properties and the classpath
+      * 通过SparkConf()来初始化配置环境（比如appname、运行的master、jars等）
+      */
+    val conf = new SparkConf().setAppName("rdd_Parallelize").setMaster("local[2]")
+    /**
+      *
+      */
     val sc = new SparkContext(conf)
 
+    //设置打印日志级别
     //Logger.getRootLogger.setLevel(Level.WARN)
     // 2.1节
     // 2.1.1 RDD 创建操作
     val data = Array(1, 2, 3, 4, 5, 6, 7, 8, 9)
     val distData = sc.parallelize(data, 3)
 
-    /*val distFile1 = sc.textFile("data.txt") // 本地当前目录下的文件
-    val distFile2 = sc.textFile("hdfs://192.168.1.100:9000/input/data.txt") // HDFS 文件
-    val distFile3 = sc.textFile("file:/input/data.txt") // 本地指定目录下的文件
-    val distFile4 = sc.textFile("/input/data.txt") // 本地指定目录下的文件 */
+    /**
+      val distFile1 = sc.textFile("data.txt") // 本地当前目录下的文件
+      val distFile2 = sc.textFile("hdfs://192.168.1.100:9000/input/data.txt") // HDFS 文件
+      val distFile3 = sc.textFile("file:/input/data.txt") // 本地指定目录下的文件
+      val distFile4 = sc.textFile("/input/data.txt") // 本地指定目录下的文件
+    */
 
     // 2.1.2 RDD 转换操作
+    /**
+      * Distribute a local Scala collection to form an RDD
+      * SparkContext的parallelize方法会通过本地的一个scala集合构造一个RDD
+      * 第一个参数：scala的集合
+      * 第二个参数：数据分片的数量
+      */
     val rdd1 = sc.parallelize(1 to 9, 3)
+    /**
+      * 将rdd1进行map操作
+      * Return a new RDD by applying a function to all elements of this RDD
+      * 应用一个函数给这个RDD的所有元素/每一个元素，并返回一个新的RDD
+      * 其中：x => x * 2 为一个函数，具体了解scala语法
+      */
     val rdd2 = rdd1.map(x => x * 2)
+    /**
+      * Return an array that contains all of the elements in this RDD
+      * 返回一个包含了这个rdd的所有元素的数组
+      *
+      * 注意：这个操作就是将所有worker上的所有数据加载到master上面来“计算”
+      * 大数据量非常不建议这么做，小数据量可以测试使用
+      */
     rdd2.collect
 
     val rdd3 = rdd2.filter(x => x > 10)
