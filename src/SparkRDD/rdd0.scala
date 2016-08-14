@@ -234,6 +234,16 @@ object rdd0 {
 
     val data2 = Array((1, 1.0), (1, 2.0), (1, 3.0), (2, 4.0), (2, 5.0), (2, 6.0))
     val rdd = sc.parallelize(data2, 2)
+    /**
+      * rdd的combineByKey算子操作
+      * 用一个自定义的聚合函数 根据每一个key来联合每一个元素
+      *
+      * 此处的这个方法是向后兼容的，对于shuffle（洗牌）操作不提供联合类标签信息
+      *
+      * Generic function to combine the elements for each key using a custom set of aggregation
+      * functions. This method is here for backward compatibility. It does not provide combiner
+      * classtag information to the shuffle.
+      */
     val combine1 = rdd.combineByKey(createCombiner = (v: Double) => (v: Double, 1),
       mergeValue = (c: (Double, Int), v: Double) => (c._1 + v, c._2 + 1),
       mergeCombiners = (c1: (Double, Int), c2: (Double, Int)) => (c1._1 + c2._1, c1._2 + c2._2),
