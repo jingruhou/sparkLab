@@ -162,7 +162,12 @@ object rdd0 {
     val rdd0 = sc.parallelize(Array((1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3)), 3)
     /**
       * rdd的groupByKey()算子操作
-      * 
+      * 将一个rdd按照key进行分组：将所有key相同的值放进一个单独的序列
+      * 将采用Hash分区来代替已经存在（原来的）的分区级别
+      * 每一个分组里面的元素的排序是不被保证的(没有排序)
+      * 可能每次执行的结果RDD是不能用来评估的
+      *
+      * 注意：groupByKey算子操作的前提是键值对类型的RDD
       * Group the values for each key in the RDD into a single sequence. Hash-partitions the
       * resulting RDD with the existing partitioner/parallelism level. The ordering of elements
       * within each group is not guaranteed, and may even differ each time the resulting RDD is
@@ -173,7 +178,21 @@ object rdd0 {
       * or [[org.apache.spark.rdd.PairRDDFunctions.reduceByKey]] will provide much better performance.
       */
     val rdd11 = rdd0.groupByKey()
-    rdd11.collect
+    /**
+      * 0 循环遍历打印这个rdd
+      * result的形式为：(key,valuesSequence)
+      */
+    rdd11.foreach(println)
+    //(1,CompactBuffer(1, 2, 3))
+    //(2,CompactBuffer(1, 2, 3))
+    /**
+      * 1 循环遍历打印这个rdd
+      * result为键值对形式的rdd（scala -- Tuple）
+      * 可以根据._1(._2)随意取key值或者valuesSequence值
+      */
+    rdd11.foreach(x => println("groupByKey:"+x._1+"--"+x._2))
+    //groupByKey:1--CompactBuffer(1, 2, 3)
+    //groupByKey:2--CompactBuffer(1, 2, 3)
 
     val rdd12 = rdd0.reduceByKey((x, y) => x + y)
     rdd12.collect
