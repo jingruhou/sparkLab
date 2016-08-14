@@ -168,6 +168,7 @@ object rdd0 {
       * 可能每次执行的结果RDD是不能用来评估的
       *
       * 注意：groupByKey算子操作的前提是键值对类型的RDD
+      *
       * Group the values for each key in the RDD into a single sequence. Hash-partitions the
       * resulting RDD with the existing partitioner/parallelism level. The ordering of elements
       * within each group is not guaranteed, and may even differ each time the resulting RDD is
@@ -194,8 +195,20 @@ object rdd0 {
     //groupByKey:1--CompactBuffer(1, 2, 3)
     //groupByKey:2--CompactBuffer(1, 2, 3)
 
+    /**
+      * rdd的reduceByKey算子操作
+      * 用一个可关联的和可替换的聚合函数 来 合并每一个key对应的values所有值
+      * “在发送结果到聚合函数之前，先将在本地执行这个（两两）合并操作，”---（待修改）
+      * 类似于MR里面的“combiner/组合器”
+      *
+      * Merge the values for each key using an associative and commutative reduce function. This will
+      * also perform the merging locally on each mapper before sending results to a reducer, similarly
+      * to a "combiner" in MapReduce.
+      */
     val rdd12 = rdd0.reduceByKey((x, y) => x + y)
-    rdd12.collect
+    rdd12.foreach(x => println("reduceByKey:"+x))
+    //reduceByKey:(1,6)
+    //reduceByKey:(2,6)
 
     // val z = sc.parallelize(List(1, 2, 3, 4, 5, 6), 2)
     //z.aggregate(0)(math.max(_, _),  _ + _)
