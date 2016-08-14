@@ -22,7 +22,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SparkRDD/rdd0.scala" afterPath="$PROJECT_DIR$/src/SparkRDD/rdd0.scala" />
     </list>
     <ignored path="sparkLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +45,8 @@
       <file leaf-file-name="rdd0.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="207" column="32" selection-start-line="207" selection-start-column="21" selection-end-line="207" selection-end-column="32" />
+            <state relative-caret-position="345">
+              <caret line="214" column="64" selection-start-line="214" selection-start-column="64" selection-end-line="214" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -763,13 +762,6 @@
       <option name="presentableId" value="Default" />
       <updated>1465280223218</updated>
     </task>
-    <task id="LOCAL-00005" summary="2016-6-17 添加DataFrame.scala,简单操作DataFrame">
-      <created>1466148555474</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1466148555474</updated>
-    </task>
     <task id="LOCAL-00006" summary="2016-6-17 添加Reflection.scala,简单操作DataFrame">
       <created>1466157979928</created>
       <option name="number" value="00006" />
@@ -1106,7 +1098,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471158274661</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="2016-8-14 添加rdd0里面具体操作的详细注释：reduceByKey算子">
+      <created>1471159967110</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1471159967110</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1152,7 +1151,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-7-13 添加LogQuery" />
     <MESSAGE value="2016-7-15 添加rdd-api.pdf" />
     <MESSAGE value="2016-7-15 添加spark博士论文.pdf" />
     <MESSAGE value="2016-7-15 添加spark二次开发、Spark开发指南、Spark架构原理.pdf" />
@@ -1177,7 +1175,8 @@
     <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：distinct算子" />
     <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：groupBy()算子" />
     <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：groupByKey算子" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-8-14 添加rdd0里面具体操作的详细注释：groupByKey算子" />
+    <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：reduceByKey算子" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-8-14 添加rdd0里面具体操作的详细注释：reduceByKey算子" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1527,8 +1526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="207" column="32" selection-start-line="207" selection-start-column="21" selection-end-line="207" selection-end-column="32" />
+        <state relative-caret-position="345">
+          <caret line="214" column="64" selection-start-line="214" selection-start-column="64" selection-end-line="214" selection-end-column="64" />
           <folding />
         </state>
       </provider>
