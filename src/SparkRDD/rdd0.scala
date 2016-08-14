@@ -292,8 +292,29 @@ object rdd0 {
     (1,3)
     (2,3)
     */
+
+    /**
+      * rdd的join算子操作
+      *
+      *
+      * Return an RDD containing all pairs of elements with matching keys in `this` and `other`. Each
+      * pair of elements will be returned as a (k, (v1, v2)) tuple, where (k, v1) is in `this` and
+      * (k, v2) is in `other`. Uses the given Partitioner to partition the output RDD.
+      */
+    //val rdd0 = sc.parallelize(Array((1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3)), 3)
     val rdd15 = rdd0.join(rdd0)
-    rdd15.collect
+    rdd15.foreach(x =>println("join:"+x))
+    /*
+    join:(1,(1,1))
+    join:(1,(1,2))
+    join:(1,(1,3))
+    join:(1,(2,1))
+    join:(1,(2,2))
+    join:(1,(2,3))
+    join:(1,(3,1))
+    join:(1,(3,2))
+    join:(1,(3,3))
+    */
 
     val rdd16 = rdd0.cogroup(rdd0)
     rdd16.collect
