@@ -209,11 +209,28 @@ object rdd0 {
     rdd12.foreach(x => println("reduceByKey:"+x))
     //reduceByKey:(1,6)
     //reduceByKey:(2,6)
+    rdd12.foreach(x => println("reduceByKey"+x._1+":"+x._2))
+    //reduceByKey1:6
+    //reduceByKey2:6
 
     // val z = sc.parallelize(List(1, 2, 3, 4, 5, 6), 2)
     //z.aggregate(0)(math.max(_, _),  _ + _)
     val z = sc.parallelize(List((1, 3), (1, 2), (1, 4), (2, 3)))
-    z.aggregateByKey(0)(math.max(_, _), _ + _).collect
+    /**
+      * rdd的aggregateByKey算子操作
+      * 用给定的联合函数和一个中间值（0值） 来 聚合每一个key的值
+      * 这个给定的联合函数能够返回一个不同的类型的result
+      * Aggregate the values of each key, using given combine functions and a neutral "zero value".
+      * This function can return a different result type, U, than the type of the values in this RDD,
+      * V. Thus, we need one operation for merging a V into a U and one operation for merging two U's,
+      * as in scala.TraversableOnce. The former operation is used for merging values within a
+      * partition, and the latter is used for merging values between partitions. To avoid memory
+      * allocation, both of these functions are allowed to modify and return their first argument
+      * instead of creating a new U.
+      */
+    z.aggregateByKey(0)(math.max(_, _), _ + _).foreach(x => println("aggregateByKey:"+x))
+    //aggregateByKey:(2,3)
+    //aggregateByKey:(1,7)
 
     val data2 = Array((1, 1.0), (1, 2.0), (1, 3.0), (2, 4.0), (2, 5.0), (2, 6.0))
     val rdd = sc.parallelize(data2, 2)
