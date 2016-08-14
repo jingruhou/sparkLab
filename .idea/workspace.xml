@@ -6,20 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="2016-8-14 添加rdd0里面具体操作的详细注释：sortByKey算子">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$10.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$11.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$12.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$13.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$14.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$4.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$7.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$8.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$9.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0.class" />
+    <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SparkRDD/rdd0.scala" afterPath="$PROJECT_DIR$/src/SparkRDD/rdd0.scala" />
     </list>
     <ignored path="sparkLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +31,8 @@
       <file leaf-file-name="rdd0.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="304" column="25" selection-start-line="304" selection-start-column="21" selection-end-line="304" selection-end-column="25" />
+            <state relative-caret-position="401">
+              <caret line="311" column="18" selection-start-line="311" selection-start-column="18" selection-end-line="311" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -717,13 +705,6 @@
       <option name="presentableId" value="Default" />
       <updated>1465280223218</updated>
     </task>
-    <task id="LOCAL-00010" summary="Kafka-Producer/Consumer简单示例程序0">
-      <created>1466673586366</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1466673586366</updated>
-    </task>
     <task id="LOCAL-00011" summary="2016-6-23 创建项目记录文档（Kafkax相关）">
       <created>1466676149884</created>
       <option name="number" value="00011" />
@@ -1060,7 +1041,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471165147246</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="2016-8-14 添加rdd0里面具体操作的详细注释：join算子">
+      <created>1471166289457</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1471166289458</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1106,7 +1094,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-7-15 添加相关文档" />
     <MESSAGE value="2016-7-16 添加机器学习实战" />
     <MESSAGE value="2016-7-16 添加Spark远程调试pdf文档" />
     <MESSAGE value="2016-7-16 添加CDH5.2.0离线安装文档" />
@@ -1131,7 +1118,8 @@
     <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：aggregateByKey算子" />
     <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：combineByKey算子" />
     <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：sortByKey算子" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-8-14 添加rdd0里面具体操作的详细注释：sortByKey算子" />
+    <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：join算子" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-8-14 添加rdd0里面具体操作的详细注释：join算子" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1480,8 +1468,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="304" column="25" selection-start-line="304" selection-start-column="21" selection-end-line="304" selection-end-column="25" />
+        <state relative-caret-position="401">
+          <caret line="311" column="18" selection-start-line="311" selection-start-column="18" selection-end-line="311" selection-end-column="18" />
           <folding />
         </state>
       </provider>
