@@ -6,21 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$10.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$11.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$12.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$13.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$14.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$3.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$4.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$7.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$8.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$9.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$$anonfun$main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkRDD/rdd0.class" />
+    <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="2016-8-14 添加rdd0里面具体操作的详细注释：combineByKey算子">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SparkRDD/rdd0.scala" afterPath="$PROJECT_DIR$/src/SparkRDD/rdd0.scala" />
     </list>
@@ -46,8 +32,18 @@
       <file leaf-file-name="rdd0.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="246" column="35" selection-start-line="246" selection-start-column="23" selection-end-line="246" selection-end-column="35" />
+            <state relative-caret-position="192">
+              <caret line="263" column="30" selection-start-line="263" selection-start-column="21" selection-end-line="263" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderedRDDFunctions.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SparkSource/core/src/main/scala/org/apache/spark/rdd/OrderedRDDFunctions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -56,8 +52,8 @@
       <file leaf-file-name="PairRDDFunctions.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../SparkSource/core/src/main/scala/org/apache/spark/rdd/PairRDDFunctions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
+            <state relative-caret-position="332">
+              <caret line="143" column="6" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="6" />
               <folding>
                 <element signature="n#!!doc" expanded="false" />
                 <element signature="e#832#858#0" expanded="false" />
@@ -707,13 +703,6 @@
       <option name="presentableId" value="Default" />
       <updated>1465280223218</updated>
     </task>
-    <task id="LOCAL-00008" summary="2016-6-23 测试SparkStreaming的官网例子--StreamingKMeansExample--成功运行！（注意：trainingDir testDir目录里面的数据格式：To run on your local machine using the two directories `trainingDir` and `testDir`,with updates every 5 seconds, 2 dimensions per data point, and 3 clusters, call:$ bin/run-example mllib.StreamingKMeansExample trainingDir testDir 5 3 2）（最后一个参数：每一个数据点的维度，例如：[0.2,0.2,0.2]这个数据点的维度就是3）">
-      <created>1466650379049</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1466650379049</updated>
-    </task>
     <task id="LOCAL-00009" summary="2016-6-23 测试SparkStreaming的官网例子--运行成功StreamingLinerRegression/线性回归StreamingLogisticRegression/逻辑回归 实时在线算法">
       <created>1466652739442</created>
       <option name="number" value="00009" />
@@ -1050,7 +1039,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471161546186</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="2016-8-14 添加rdd0里面具体操作的详细注释：combineByKey算子">
+      <created>1471162381687</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1471162381687</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1064,7 +1060,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.50298953" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18081991" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18167701" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32142857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1096,7 +1092,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-7-15 添加spark博士论文.pdf" />
     <MESSAGE value="2016-7-15 添加spark二次开发、Spark开发指南、Spark架构原理.pdf" />
     <MESSAGE value="2016-7-15 添加相关文档" />
     <MESSAGE value="2016-7-16 添加机器学习实战" />
@@ -1121,7 +1116,8 @@
     <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：groupByKey算子" />
     <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：reduceByKey算子" />
     <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：aggregateByKey算子" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-8-14 添加rdd0里面具体操作的详细注释：aggregateByKey算子" />
+    <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：combineByKey算子" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-8-14 添加rdd0里面具体操作的详细注释：combineByKey算子" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1138,7 +1134,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/spark-1.6.0/mllib/src/main/scala/org/apache/spark/mllib/regression/StreamingLinearAlgorithm.scala" />
     <entry file="file://$PROJECT_DIR$/Resources/image/rdd1_dag.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1464,8 +1459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../SparkSource/core/src/main/scala/org/apache/spark/rdd/PairRDDFunctions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
+        <state relative-caret-position="332">
+          <caret line="143" column="6" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="6" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
             <element signature="e#832#858#0" expanded="false" />
@@ -1473,10 +1468,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../SparkSource/core/src/main/scala/org/apache/spark/rdd/OrderedRDDFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="246" column="35" selection-start-line="246" selection-start-column="23" selection-end-line="246" selection-end-column="35" />
+        <state relative-caret-position="192">
+          <caret line="263" column="30" selection-start-line="263" selection-start-column="21" selection-end-line="263" selection-end-column="30" />
           <folding />
         </state>
       </provider>

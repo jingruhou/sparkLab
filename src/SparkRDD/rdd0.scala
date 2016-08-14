@@ -235,7 +235,7 @@ object rdd0 {
     val data2 = Array((1, 1.0), (1, 2.0), (1, 3.0), (2, 4.0), (2, 5.0), (2, 6.0))
     val rdd = sc.parallelize(data2, 2)
     /**
-      * rdd的combineByKey算子操作
+      * rdd的combineByKey算子操作（有待继续研究）
       * 用一个自定义的聚合函数 根据每一个key来联合每一个元素
       *
       * 此处的这个方法是向后兼容的，对于shuffle（洗牌）操作不提供联合类标签信息
@@ -250,9 +250,48 @@ object rdd0 {
       numPartitions = 2)
       combine1.collect
 
+    /**
+      * rdd的sortByKey算子操作
+      * 按照key对这个rdd进行排序，每一个分区包含了这个分区范围的排序数据
+      * 在这个resulting RDD上 调用collect或者save方法 来 返回或者输出一个已经排好序的记录列表
+      * (如果调用save方法：它们（resulting RDD）将被写入到文件系统里的多个“分片”文件,用keys来排序)
+      *
+      * Sort the RDD by key, so that each partition contains a sorted range of the elements. Calling
+      * `collect` or `save` on the resulting RDD will return or output an ordered list of records
+      * (in the `save` case, they will be written to multiple `part-X` files in the filesystem, in
+      * order of the keys).
+      */
     val rdd14 = rdd0.sortByKey()
-    rdd14.collect
-
+    rdd14.foreach(println)
+    /*
+    (1,1)
+    (2,1)
+    (1,2)
+    (2,2)
+    (1,3)
+    (2,3)
+    */
+    /**
+      * 思考：上面的打印结果的顺序和下面打印结果的顺序不同的原因
+      */
+    rdd14.foreach(x => println("sortByKey:"+x))
+    /*
+    sortByKey:(1,1)
+    sortByKey:(1,2)
+    sortByKey:(1,3)
+    sortByKey:(2,1)
+    sortByKey:(2,2)
+    sortByKey:(2,3)
+    */
+    rdd14.foreach(x => println(x))
+    /*
+    (2,1)
+    (1,1)
+    (2,2)
+    (1,2)
+    (1,3)
+    (2,3)
+    */
     val rdd15 = rdd0.join(rdd0)
     rdd15.collect
 
