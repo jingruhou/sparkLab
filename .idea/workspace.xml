@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/java/Tomact配置记录" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/document/搭建kylin出现的问题总结_will.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sparkLab.iws" />
@@ -32,18 +32,28 @@
       <file leaf-file-name="rdd0.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="7245">
               <caret line="316" column="6" selection-start-line="316" selection-start-column="6" selection-end-line="316" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tomact配置记录" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tomact配置记录" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/java/Tomact配置记录">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2714">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="2050">
+              <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="搭建kylin出现的问题总结_will.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resources/document/搭建kylin出现的问题总结_will.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Kafka/PageViewStream.scala" />
         <option value="$PROJECT_DIR$/src/SparkStreaming/onlineKMeans.scala" />
         <option value="$PROJECT_DIR$/src/SparkStreaming/KafkaSparkStreamingSpec.scala" />
         <option value="$PROJECT_DIR$/src/business/diag0.scala" />
@@ -150,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/SparkRDD/rdd0.scala" />
         <option value="$PROJECT_DIR$/Resources/java/MyBatis" />
         <option value="$PROJECT_DIR$/Resources/java/Tomact配置记录" />
+        <option value="$PROJECT_DIR$/Resources/document/搭建kylin出现的问题总结_will.txt" />
       </list>
     </option>
   </component>
@@ -194,8 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -261,12 +269,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="document" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="NBKnowledgePane" />
     </panes>
   </component>
@@ -284,15 +294,15 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparklab" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\sparkLab\Resources\image" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\bigdata\Spark\sparkLab\Resources\document" />
       <recent name="D:\sparkLab\Resources\pdf" />
       <recent name="D:\sparkLab\Resources\image" />
       <recent name="D:\sparkLab\tmp\sparkstreaming" />
       <recent name="D:\sparkLab\Resources\data" />
-      <recent name="D:\sparkLab\src\SparkStreaming\streamingmodel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sparkLab\Resources\image" />
     </key>
   </component>
   <component name="RunManager" selected="Application.rdd0">
@@ -424,7 +434,10 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -447,7 +460,10 @@
       <Profilers>
         <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -727,13 +743,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465280223218</updated>
-    </task>
-    <task id="LOCAL-00013" summary="2016-6-23 添加sqoop命令解释文档">
-      <created>1466760383195</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1466760383196</updated>
     </task>
     <task id="LOCAL-00014" summary="2016-6-25 添加修改KafkaWordCount.scala，程序里面包含Kafka-Producer（随机生成1-100之间的数字），单词统计">
       <created>1466845129456</created>
@@ -1071,7 +1080,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471228650995</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="2016-8-15 添加MPI项目的Tomact/conf/server.xml和context.xml配置文件">
+      <created>1471239868622</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1471239868623</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1117,7 +1133,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-7-16 添加Spark远程调试pdf文档" />
     <MESSAGE value="2016-7-16 添加CDH5.2.0离线安装文档" />
     <MESSAGE value="2016-7-21 新建阅读学习博客目录" />
     <MESSAGE value="2016-8-1 新建SparkStreaming案例：BashSpark" />
@@ -1142,7 +1157,8 @@
     <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：sortByKey算子" />
     <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：join算子" />
     <MESSAGE value="2016-8-15 添加MyBatis学习文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-8-15 添加MyBatis学习文档" />
+    <MESSAGE value="2016-8-15 添加MPI项目的Tomact/conf/server.xml和context.xml配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-8-15 添加MPI项目的Tomact/conf/server.xml和context.xml配置文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1159,13 +1175,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/LinearRegression/StreamingModelProducer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/document/SparkMLLib">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1454,10 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="897">
           <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#832#861#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1465,10 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11431">
           <caret line="541" column="5" selection-start-line="541" selection-start-column="5" selection-end-line="541" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#832#858#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1490,7 +1491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="7245">
           <caret line="316" column="6" selection-start-line="316" selection-start-column="6" selection-end-line="316" selection-end-column="6" />
           <folding />
         </state>
@@ -1498,8 +1499,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/java/Tomact配置记录">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2714">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="2050">
+          <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/document/搭建kylin出现的问题总结_will.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>

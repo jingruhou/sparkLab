@@ -1,0 +1,41 @@
+搭建kylin参考博客：http://blog.itpub.net/30089851/viewspace-2121221/
+
+
+本人环境： Hadoop2.7.2(集群) + HBase1.1.5(集群) + Hive2.0.0(单点)
+选择的kylin版本： apache-kylin-1.5.3-HBase1.x-bin.tar.gz (最新版本)
+
+kylin准备安装单节点，部署在hive存在的主机上。
+
+出现的错误：
+1. hadoop不支持snappy压缩方式，执行job报错。
+	a.可以重新编译hadoop源码，让它支持snappy压缩。
+		http://blog.itpub.net/30089851/viewspace-2120631/
+
+	b.或者更改为gzip压缩方式。(选择了它)
+		群文件：kylin压缩格式由SnappyCodec改成gzip.docx
+
+2.无法连接hadoop的10020端口，因为这个端口没有起来。
+	在hadoop/sbin下执行：
+		./mr-jobhistory-daemon.sh  start  historyserver
+
+
+3. 出现Error: java.lang.ClassNotFoundException: org.apache.kylin.engine.mr.KylinMapper at.....
+由于在kylin.properties这个最后加入了2个参数，注释掉前面加入的第一个参数即可运行到100%。
+	# add by willhu
+	#kylin.job.jar=$KYLIN_HOME/lib/kylin-job-1.5.3.jar
+	kylin.coprocessor.local.jar=$KYLIN_HOME/lib/kylin-coprocessor-1.5.3.jar
+
+
+4. web执行sql查询出现错误：
+Error while executing SQL "select part_dt, sum(price) as total_selled, count(distinct seller_id) as sellers from kylin_sales group by part_dt order by part_dt LIMIT 50000": Error in coprocessor
+	需要增加：
+	kylin.coprocessor.local.jar=$KYLIN_HOME/lib/kylin-coprocessor-1.5.3.jar
+	本问题未解决，只能换其他老版本重试一次。换apache-kylin-1.5.2.1-HBase1.x-bin.tar.gz
+	并且更改压缩方式为snappy
+
+5. web执行sql查询出现错误:
+	Error while executing SQL "SELECT * FROM .... LIMIT 10": Timeout visiting cube!
+	解决办法是执行以下命令：
+	$KYLIN_HOME/bin/kylin.sh  org.apache.kylin.storage.hbase.util.DeployCoprocessorCLI $KYLIN_HOME/lib/kylin-coprocessor-*.jar  all
+	比如我的环境就是执行：
+	$KYLIN_HOME/bin/kylin.sh  org.apache.kylin.storage.hbase.util.DeployCoprocessorCLI /usr/local/kylin/lib/kylin-coprocessor-1.5.2.1.jar  all
