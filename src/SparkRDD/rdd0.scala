@@ -295,14 +295,39 @@ object rdd0 {
 
     /**
       * rdd的join算子操作
-      *
+      * 返回一个包含所有根据key匹配的键值对元素 的新RDD
+      * 每一个key所对应的所有值/元素将被作为一个(k,(v1,v2))的tuple返回，
+      * 其中(k,v1)是在这个RDD里面,(k,v2)是在那个RDD里面
+      * 对于这个返回的RDD-（新RDD）-（输出的RDD），使用的分区策略是：使用给定的分区方法
       *
       * Return an RDD containing all pairs of elements with matching keys in `this` and `other`. Each
       * pair of elements will be returned as a (k, (v1, v2)) tuple, where (k, v1) is in `this` and
       * (k, v2) is in `other`. Uses the given Partitioner to partition the output RDD.
       */
     //val rdd0 = sc.parallelize(Array((1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3)), 3)
+    //val rdd0 = sc.parallelize(Array((1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3)), 3)
     val rdd15 = rdd0.join(rdd0)
+    rdd15.foreach(println)
+    /*
+    (1,(1,1))
+    (1,(1,2))
+    (1,(1,3))
+    (1,(2,1))
+    (1,(2,2))
+    (1,(2,3))
+    (1,(3,1))
+    (1,(3,2))
+    (1,(3,3))
+    (2,(1,1))
+    (2,(1,2))
+    (2,(1,3))
+    (2,(2,1))
+    (2,(2,2))
+    (2,(2,3))
+    (2,(3,1))
+    (2,(3,2))
+    (2,(3,3))
+    */
     rdd15.foreach(x =>println("join:"+x))
     /*
     join:(1,(1,1))
