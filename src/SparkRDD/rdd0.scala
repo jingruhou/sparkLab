@@ -341,48 +341,123 @@ object rdd0 {
     join:(1,(3,3))
     */
 
+    /**
+      *
+      * For each key k in `this` or `other1` or `other2` or `other3`,
+      * return a resulting RDD that contains a tuple with the list of values
+      * for that key in `this`, `other1`, `other2` and `other3`.
+      */
     val rdd16 = rdd0.cogroup(rdd0)
-    rdd16.collect
+    rdd16.foreach(println)
 
+    /**
+      *
+      * Return the Cartesian product of this RDD and another one, that is, the RDD of all pairs of
+      * elements (a, b) where a is in `this` and b is in `other`.
+      */
     val rdd17 = rdd1.cartesian(rdd3)
     rdd17.collect
 
     //val rdd18 = sc.parallelize(1 to 9, 3)
     //rdd18.pipe("head -n 1").collect
 
+    /**
+      * Randomly splits this RDD with the provided weights.
+      */
     val rdd19 = rdd1.randomSplit(Array(0.3, 0.7), 1)
     rdd19(0).collect
     rdd19(1).collect
 
     val rdd20_1 = sc.parallelize(1 to 9, 3)
     val rdd20_2 = sc.parallelize(1 to 3, 3)
+    /**
+      * Return an RDD with the elements from `this` that are not in `other`.
+      */
     val rdd20_3 = rdd20_1.subtract(rdd20_2)
 
     val rdd21_1 = sc.parallelize(Array(1, 2, 3, 4), 3)
     val rdd21_2 = sc.parallelize(Array("a", "b", "c", "d"), 3)
+    /**
+      * Zips this RDD with another one, returning key-value pairs with the first element in each RDD,
+      * second element in each RDD, etc. Assumes that the two RDDs have the *same number of
+      * partitions* and the *same number of elements in each partition* (e.g. one was made through
+      * a map on the other).
+      */
     val rdd21_3 = rdd21_1.zip(rdd21_2)
 
     val data3 = Array((1, 1.0), (1, 2.0), (1, 3.0), (2, 4.0), (2, 5.0), (2, 6.0))
     val rdd24 = sc.parallelize(data3, 2)
+    /**
+      * Generic function to combine the elements for each key using a custom set of aggregation
+      * functions. This method is here for backward compatibility. It does not provide combiner
+      * classtag information to the shuffle.
+      */
     val combine24_1 = rdd24.combineByKey(createCombiner = (v: Double) => (v: Double, 1),
       mergeValue = (c: (Double, Int), v: Double) => (c._1 + v, c._2 + 1),
       mergeCombiners = (c1: (Double, Int), c2: (Double, Int)) => (c1._1 + c2._1, c1._2 + c2._2),
       numPartitions = 2)
+    /**
+      * Aggregates the elements of this RDD in a multi-level tree pattern.
+      */
     val treeAggregate24_1 = rdd24.treeAggregate((0, 0.0))(seqOp = ((u, t) => (u._1 + t._1, u._2 + t._2)),
       combOp = (u1, u2) => (u1._1 + u2._1, u1._2 + u2._2),
       depth = 2)
 
     // 2.1.3 RDD 行动操作
     val rdd3_1 = sc.parallelize(1 to 9, 3)
+    /**
+      *
+      * Reduces the elements of this RDD using the specified commutative and
+      * associative binary operator.
+      */
     val rdd3_2 = rdd3_1.reduce(_ + _)
+
+    /**
+      * Return an array that contains all of the elements in this RDD.
+      */
     rdd3_1.collect()
+
+    /**
+      * 
+      * Return the number of elements in the RDD.
+      */
     rdd3_1.count()
+
+    /**
+      *
+      * Return the first element in this RDD.
+      */
     rdd3_1.first()
+
+    /**
+      *
+      * Take the first num elements of the RDD. It works by first scanning one partition, and use the
+      * results from that partition to estimate the number of additional partitions needed to satisfy
+      * the limit.
+      */
     rdd3_1.take(3)
+
+    /**
+      *
+      * Return a fixed-size sampled subset of this RDD in an array
+      */
     rdd3_1.takeSample(true, 4)
+
+    /**
+      *
+      * Returns the first k (smallest) elements from this RDD as defined by the specified
+      * implicit Ordering[T] and maintains the ordering. This does the opposite of [[top]].
+      */
     rdd3_1.takeOrdered(4)
 
   }
+
+  /**
+    * 自定义函数myfunc
+    * @param iter
+    * @tparam T
+    * @return
+    */
   def myfunc[T](iter: Iterator[T]): Iterator[(T, T)] = {
     var res = List[(T, T)]()
     var pre = iter.next

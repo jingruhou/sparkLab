@@ -40,8 +40,18 @@
       <file leaf-file-name="rdd0.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="299" column="41" selection-start-line="299" selection-start-column="41" selection-end-line="299" selection-end-column="41" />
+            <state relative-caret-position="-213">
+              <caret line="420" column="8" selection-start-line="420" selection-start-column="8" selection-end-line="420" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RDD.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SparkSource/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="1367" column="5" selection-start-line="1367" selection-start-column="5" selection-end-line="1368" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -50,8 +60,8 @@
       <file leaf-file-name="PairRDDFunctions.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../SparkSource/core/src/main/scala/org/apache/spark/rdd/PairRDDFunctions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11546">
-              <caret line="546" column="11" selection-start-line="546" selection-start-column="11" selection-end-line="546" selection-end-column="11" />
+            <state relative-caret-position="161">
+              <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="108" selection-end-column="41" />
               <folding>
                 <element signature="n#!!doc" expanded="false" />
                 <element signature="e#832#858#0" expanded="false" />
@@ -185,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -239,7 +250,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="NBKnowledgePane" />
     </panes>
   </component>
@@ -397,7 +407,10 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -420,7 +433,10 @@
       <Profilers>
         <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -700,13 +716,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465280223218</updated>
-    </task>
-    <task id="LOCAL-00016" summary="2016-6-29 添加hive document；添加bussiness/diag（门诊诊断相关的业务逻辑测试代码）">
-      <created>1467189592092</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1467189592092</updated>
     </task>
     <task id="LOCAL-00017" summary="2016-6-30 添加PageViewGenerator PageViewStream,运行成功（注意参数：metric的设置：&lt;metric&gt; must be one of pageCounts, slidingPageCounts，errorRatePerZipCode, activeUserCount, popularUsersSeen）">
       <created>1467269021988</created>
@@ -1044,7 +1053,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471673783000</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="2016-8-21 添加rdd0里面具体操作的详细注释：join算子操作">
+      <created>1471751862299</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1471751862299</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1090,7 +1106,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-8-1 新建SparkStreaming案例：BashSpark" />
     <MESSAGE value="2016-8-2 添加BashSpark注释（）" />
     <MESSAGE value="2016-8-2 添加BashSpark注释（妮妲台风来袭）" />
     <MESSAGE value="2016-8-3 添加WebService学习文档" />
@@ -1115,7 +1130,8 @@
     <MESSAGE value="2016-8-15 添加MPI项目的Tomact/conf/server.xml和context.xml配置文件" />
     <MESSAGE value="2016-8-18 添加搭建kylin出现的问题总结" />
     <MESSAGE value="2016-8-20 添加oracle详细讲解pdf文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-8-20 添加oracle详细讲解pdf文档" />
+    <MESSAGE value="2016-8-21 添加rdd0里面具体操作的详细注释：join算子操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-8-21 添加rdd0里面具体操作的详细注释：join算子操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1395,13 +1411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SparkSource/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8188">
-          <caret line="397" column="5" selection-start-line="397" selection-start-column="5" selection-end-line="397" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../scala2.10.5/lib/scala-library.jar!/scala/Tuple2.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1453,8 +1462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../SparkSource/core/src/main/scala/org/apache/spark/rdd/PairRDDFunctions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11546">
-          <caret line="546" column="11" selection-start-line="546" selection-start-column="11" selection-end-line="546" selection-end-column="11" />
+        <state relative-caret-position="161">
+          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="108" selection-end-column="41" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
             <element signature="e#832#858#0" expanded="false" />
@@ -1462,10 +1471,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../SparkSource/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="1367" column="5" selection-start-line="1367" selection-start-column="5" selection-end-line="1368" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="299" column="41" selection-start-line="299" selection-start-column="41" selection-end-line="299" selection-end-column="41" />
+        <state relative-caret-position="-213">
+          <caret line="420" column="8" selection-start-line="420" selection-start-column="8" selection-end-line="420" selection-end-column="8" />
           <folding />
         </state>
       </provider>
