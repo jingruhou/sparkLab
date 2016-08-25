@@ -1,0 +1,202 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<!-- <parent>
+		<groupId>cn.com.casking.cihe</groupId>
+		<artifactId>cihe-parent</artifactId>
+		<version>1.0.0</version>
+	</parent> -->
+	<groupId>cn.com.casking.cihe</groupId>
+	<version>1.0.0</version>
+	<artifactId>cihe-pis-mpi-oracle</artifactId>
+	<packaging>war</packaging>
+	<name>cihe-pis-mpi-oracle</name>
+	<url>http://www.casking.com.cn</url>
+	<!-- 项目属性 -->
+	<properties>
+		<jdbc.driver.groupId>com.oracle</jdbc.driver.groupId>
+		<jdbc.driver.artifactId>ojdbc14</jdbc.driver.artifactId>
+		<jdbc.driver.version>${oracle.version}</jdbc.driver.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>cn.com.casking</groupId>
+			<artifactId>crhip-services-base</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc14</artifactId>
+			<version>10.2.0</version>
+		</dependency>
+
+
+		<!-- SPRING basic begin -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>3.2.0.RELEASE</version>
+		</dependency>
+		<!-- SPRING basic end -->
+
+		<!-- AOP -->
+		<dependency>
+		  <groupId>org.aspectj</groupId>
+		  <artifactId>aspectjrt</artifactId>
+		  <version>1.7.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.7.4</version>
+		</dependency>
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>3.1</version>
+		</dependency>
+
+		<!-- Mybatis begin -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>3.2.0.RELEASE</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.mybatis</groupId>
+		  <artifactId>mybatis-spring</artifactId>
+		  <version>1.2.2</version>
+		</dependency>
+
+		<dependency>
+		  <groupId>org.mybatis</groupId>
+		  <artifactId>mybatis</artifactId>
+		  <version>3.2.8</version>
+		</dependency>
+		<!-- Mybatis end -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<scope>compile</scope>
+			<version>2.5</version>
+		</dependency>
+		<!-- SOAP begin -->
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-frontend-jaxws</artifactId>
+			<version>2.7.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http</artifactId>
+			<version>2.7.4</version>
+		</dependency>
+		<!-- SOAP end -->
+
+		<!-- log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+		<!-- /log4j -->
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.3.2</version>
+		</dependency>
+		<dependency>
+		  <groupId>commons-lang</groupId>
+		  <artifactId>commons-lang</artifactId>
+		  <version>2.6</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+        <dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>3.2</version>
+		</dependency>
+		<dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <version>3.1</version>
+        </dependency>
+        <!-- json -->
+		<dependency>
+			<groupId>net.sf.ezmorph</groupId>
+			<artifactId>ezmorph</artifactId>
+			<version>1.0.6</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+			<classifier>jdk15</classifier>
+			<version>2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.module</groupId>
+			<artifactId>jackson-module-jaxb-annotations</artifactId>
+			<version>2.0.5</version>
+		</dependency>
+		<!-- /json -->
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<useSystemClassLoader>false</useSystemClassLoader>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>findbugs-maven-plugin</artifactId>
+				<configuration>
+					<findbugsXmlOutput>true</findbugsXmlOutput>
+					<findbugsXmlWithMessages>true</findbugsXmlWithMessages>
+					<xmlOutput>true</xmlOutput>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

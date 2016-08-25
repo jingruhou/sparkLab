@@ -413,18 +413,21 @@ object rdd0 {
     val rdd3_2 = rdd3_1.reduce(_ + _)
 
     /**
+      * 返回一个数组：包含这个RDD的所有元素
+      * 注意：这个操作是将所有datanode上的数据上传到driver上面去，
+      * 数据量大，超过千万条的话，不建议使用，会报数组角标越界
       * Return an array that contains all of the elements in this RDD.
       */
     rdd3_1.collect()
 
     /**
-      * 
+      * 返回这个RDD的元素数量
       * Return the number of elements in the RDD.
       */
     rdd3_1.count()
 
     /**
-      *
+      * 返回这个RDD的第一个元素
       * Return the first element in this RDD.
       */
     rdd3_1.first()
@@ -449,7 +452,6 @@ object rdd0 {
       * implicit Ordering[T] and maintains the ordering. This does the opposite of [[top]].
       */
     rdd3_1.takeOrdered(4)
-
   }
 
   /**
