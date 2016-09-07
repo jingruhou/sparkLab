@@ -8,3 +8,14 @@ val spark = SparkSession
 
 // For implicit conversions like converting RDDs to DataFrames
 import spark.implicits._
+
+
+
+
+
+
+SparkSession.builder()
+  .master("local")
+  .appName("Word Count")
+  .config("spark.some.config.option", "some-value").
+  .getOrCreate()
