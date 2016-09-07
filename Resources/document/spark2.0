@@ -19,3 +19,7 @@ SparkSession.builder()
   .appName("Word Count")
   .config("spark.some.config.option", "some-value").
   .getOrCreate()
+
+
+Bagel Programming Guide
+(Pregel on Spark)Spark1.6.0
