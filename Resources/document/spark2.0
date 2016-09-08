@@ -1,3 +1,4 @@
+（1）
 import org.apache.spark.sql.SparkSession
 
 val spark = SparkSession
@@ -9,17 +10,47 @@ val spark = SparkSession
 // For implicit conversions like converting RDDs to DataFrames
 import spark.implicits._
 
-
-
-
-
-
 SparkSession.builder()
   .master("local")
   .appName("Word Count")
   .config("spark.some.config.option", "some-value").
   .getOrCreate()
 
-
+（2）
 Bagel Programming Guide
 (Pregel on Spark)Spark1.6.0
+
+
+（3）
+Running the Thrift JDBC/ODBC server
+
+./sbin/start-thriftserver.sh
+
+export HIVE_SERVER2_THRIFT_PORT=<listening-port>
+export HIVE_SERVER2_THRIFT_BIND_HOST=<listening-host>
+./sbin/start-thriftserver.sh \
+  --master <master-uri> \
+  ...
+  
+or system properties:
+
+./sbin/start-thriftserver.sh \
+  --hiveconf hive.server2.thrift.port=<listening-port> \
+  --hiveconf hive.server2.thrift.bind.host=<listening-host> \
+  --master <master-uri>
+  ...
+  
+  
+./bin/beeline
+
+beeline> !connect jdbc:hive2://localhost:10000
+
+Thrift JDBC server also supports sending thrift RPC messages over HTTP transport. Use the following setting to enable HTTP mode as system property or in hive-site.xml file in conf/:
+
+hive.server2.transport.mode - Set this to value: http
+hive.server2.thrift.http.port - HTTP port number fo listen on; default is 10001
+hive.server2.http.endpoint - HTTP endpoint; default is cliservice
+To test, use beeline to connect to the JDBC/ODBC server in http mode with:
+
+beeline> !connect jdbc:hive2://<host>:<port>/<database>?hive.server2.transport.mode=http;hive.server2.thrift.http.path=<http_endpoint>
+  
