@@ -8,10 +8,11 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="scala-sdk-2.10.5" level="application" />
-    <orderEntry type="library" name="spark-assembly-1.6.0-cdh5.7.0-hadoop2.6.0-cdh5.7.0" level="project" />
-    <orderEntry type="library" name="hadoop-core-2.6.0-mr1-cdh5.7.0" level="project" />
-    <orderEntry type="library" name="hadoop-common-2.6.0-cdh5.7.0" level="project" />
-    <orderEntry type="library" name="commons-beanutils-1.7.0" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.10.5" level="application" />
+    <orderEntry type="library" name="spark-assembly-1.6.0-cdh5.9.0-hadoop2.6.0-cdh5.9.0" level="project" />
+    <orderEntry type="library" name="hadoop-common-2.6.0-cdh5.9.0" level="project" />
+    <orderEntry type="library" name="hadoop-core-2.6.0-mr1-cdh5.9.0" level="project" />
     <orderEntry type="library" name="accumulo-core-1.6.0" level="project" />
+    <orderEntry type="library" name="commons-beanutils-1.7.0" level="project" />
   </component>
 </module>

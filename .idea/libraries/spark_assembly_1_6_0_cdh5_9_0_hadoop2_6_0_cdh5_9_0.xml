@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spark-assembly-1.6.0-cdh5.9.0-hadoop2.6.0-cdh5.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/develop/cdh5.9.0_jars/spark-assembly-1.6.0-cdh5.9.0-hadoop2.6.0-cdh5.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
