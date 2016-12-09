@@ -10,7 +10,7 @@
 （1）集群主节点
 （2）主类
 （3）执行内存
-（4）jar包路径
+（4）jar包路径(本地存放路径)
 
 ./bin/spark-submit \
   --master yarn-cluster \
