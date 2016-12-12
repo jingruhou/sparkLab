@@ -30,9 +30,10 @@ object map {
       */
     val input = sc.parallelize(List(1, 2, 3, 4))
     val result = input.map(x => x * x)
-    println(result.collect().mkString(","))//将collect集合里面的元素构造成字符串打印出来
+    println("mkString(',')使用： "+result.collect().mkString(","))//将collect集合里面的元素构造成字符串打印出来
 
     /**
+      * mkString方法的定义
       *
       * def mkString(start: String, sep: String, end: String): String =
       * addString(new StringBuilder(), start, sep, end).toString
@@ -42,5 +43,7 @@ object map {
       * def mkString: String = mkString("")
       *
       */
+    println("mkString使用： "+result.collect().mkString)
+    println("mkString('start-','*','-end')使用： "+result.collect().mkString("start-","*","-end"))
   }
 }
