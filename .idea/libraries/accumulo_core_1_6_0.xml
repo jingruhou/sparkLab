@@ -1066,6 +1066,7 @@
       <root url="file://$PROJECT_DIR$/../spark-1.6.3/tags/src/main/java" />
       <root url="file://$PROJECT_DIR$/../spark-1.6.3/unsafe/src/main/java" />
       <root url="file://$PROJECT_DIR$/../spark-1.6.3/unsafe/src/test/java" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/log4j-1.2.17-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

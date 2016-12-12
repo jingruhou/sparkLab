@@ -30,9 +30,24 @@ object Sample {
 
     println(result1.toDebugString)
 
-    println("\nresult 1: ")
+    println("result 1: ")
     result1.collect.foreach(x => print(x + ""))
-    println("\nresult 2:")
+    println("result 2:")
     result2.collect.foreach(x => print(x + ""))
+
+    //将抽样结果转换为字符串，然后打印出来
+    println("result1 : "+result1.collect().mkString(","))
+    println("result2 : "+result2.collect().mkString(","))
+
+
+    /**
+      * 2016-12-12 hjr
+      *
+      * sample(withReplacement,fraction,seed)方法使用实例：
+      */
+    val data = sc.parallelize(List(1, 2, 3, 3))
+    val sampleData = data.sample(false, 0.5)
+    sampleData.foreach(println)
+    println("采样数据： "+sampleData.collect().mkString(","))
   }
 }
