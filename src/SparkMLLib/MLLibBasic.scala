@@ -5,7 +5,7 @@ import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
-  * Created by Administrator on 2016/7/11.
+  * Created by houjingru on 2016/7/11.
   */
 object MLLibBasic {
   def main(args: Array[String]) {
@@ -77,30 +77,5 @@ object MLLibBasic {
       *       标签向量是由向量（密集或者稀疏）通过建立标记点构成的
       *
       */
-
-    /**
-      * ****************************************************************************************************************
-      * ****************************************************************************************************************
-      * ****************************************************************************************************************
-      */
-
-    /**
-      * 2016-12-10 易者悠也
-      *
-      * 学习 ： LabeledPoint 对象
-      *
-      *
-      *
-      * (1)自定义LabeledPoint类：case class LabeledPoint
-      * (2)自定义LabeledPoint对象：object LabeledPoint
-      * (3)学习调用
-      * (4)总结
-      *
-      */
-
-
-
-
-
   }
 }

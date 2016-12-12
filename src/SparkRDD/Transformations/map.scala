@@ -16,12 +16,31 @@ object map {
       *
       * 返回一个新的RDD,由每个元素经过func函数转化后
       */
-    val originalRDD = sc.textFile("D:/SogouLab/SogouQ1.txt")
+    val originalRDD = sc.textFile("Resources/data/Sogou/SogouQ1.txt")
     originalRDD.foreach(println)
 
     // 0
     val result0 = originalRDD.flatMap(line =>line.split("\t")).map(word =>(word,1)).reduceByKey(_ + _)
     result0.foreach(println)
 
+    /**
+      * 2016-12-12 hjr
+      *
+      * 计算RDD中各值的平方（map算子应用）
+      */
+    val input = sc.parallelize(List(1, 2, 3, 4))
+    val result = input.map(x => x * x)
+    println(result.collect().mkString(","))//将collect集合里面的元素构造成字符串打印出来
+
+    /**
+      *
+      * def mkString(start: String, sep: String, end: String): String =
+      * addString(new StringBuilder(), start, sep, end).toString
+      *
+      * def mkString(sep: String): String = mkString("", sep, "")
+      *
+      * def mkString: String = mkString("")
+      *
+      */
   }
 }
