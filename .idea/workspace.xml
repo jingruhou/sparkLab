@@ -32,8 +32,8 @@
       <file leaf-file-name="MLLib_Statistics.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SparkMLLib/MLLib_Statistics.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+            <state relative-caret-position="140">
+              <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
               <folding>
                 <element signature="e#20#64#0" expanded="true" />
               </folding>
@@ -54,12 +54,9 @@
       <file leaf-file-name="MultivariateStatisticalSummary.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateStatisticalSummary.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#839#879#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="65" column="36" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,12 +74,9 @@
       <file leaf-file-name="Statistics.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/Statistics.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#839#870#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="46">
+              <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -933,13 +927,6 @@
       <option name="presentableId" value="Default" />
       <updated>1465280223218</updated>
     </task>
-    <task id="LOCAL-00026" summary="2016-7-11 添加rdd1的执行过程截图：rdd1_stage0_Tasks.png/rdd1_stage1_Tasks.png/rdd1_Summary Metrics">
-      <created>1468231846230</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1468231846230</updated>
-    </task>
     <task id="LOCAL-00027" summary="2016-7-12 添加Sample.scala和Cogroup.scala例子">
       <created>1468312853991</created>
       <option name="number" value="00027" />
@@ -1276,7 +1263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482847427952</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="2016-12-27 添加MLLib_Statistics相关操作---注释说明1">
+      <created>1482850232671</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1482850232671</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1322,7 +1316,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：sample算子" />
     <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：union算子" />
     <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：intersection算子" />
     <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：distinct算子" />
@@ -1347,7 +1340,8 @@
     <MESSAGE value="2016-12-12 SparkRDD:flatMap() 操作使用实例" />
     <MESSAGE value="2016-12-12 SparkRDD: 总结result1.collect.foreach(x =&gt; print(x + &quot;,&quot;))和println(result1.collect().mkString(&quot;,&quot;))输出方式的区别" />
     <MESSAGE value="2016-12-27 添加MLLib_Statistics相关操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-12-27 添加MLLib_Statistics相关操作" />
+    <MESSAGE value="2016-12-27 添加MLLib_Statistics相关操作---注释说明1" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-12-27 添加MLLib_Statistics相关操作---注释说明1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1676,17 +1670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/Statistics.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#839#870#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/linalg/distributed/RowMatrix.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1724,17 +1707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateStatisticalSummary.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#839#879#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/linalg/Vectors.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1743,10 +1715,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/Statistics.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateStatisticalSummary.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="65" column="36" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkMLLib/MLLib_Statistics.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        <state relative-caret-position="140">
+          <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
           <folding>
             <element signature="e#20#64#0" expanded="true" />
           </folding>

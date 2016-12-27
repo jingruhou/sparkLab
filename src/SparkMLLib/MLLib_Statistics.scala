@@ -66,12 +66,40 @@ object MLLib_Statistics {
       */
     val data1 = data.map(f => Vectors.dense(f))
 
+    /**
+      * Computes column-wise summary statistics for the input RDD[Vector]
+      *
+      */
     val stat1 = Statistics.colStats(data1)
+
+    /**
+      * Maximum value of each column.
+      */
     println("每一列的最大值： "+stat1.max)
+
+    /**
+      * Minimum value of each column.
+      */
     println("每一列的最小值： "+stat1.min)
+
+    /**
+      * Sample mean vector.
+      */
     println("每一列的平均值： "+stat1.mean)
+
+    /**
+      * Sample variance vector. Should return a zero vector if the sample size is 1.
+      */
     println("每一列的方差值： "+stat1.variance)
+
+    /**
+      * L1 norm of each column
+      */
     println("L1范数： "+stat1.normL1)
+
+    /**
+      * Euclidean magnitude of each column
+      */
     println("L2范数： "+stat1.normL2)
   }
 
