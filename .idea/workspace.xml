@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DTSpark/Scala/Basics/HelloTrait.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SparkMLLib/MLLib_Statistics.scala" afterPath="$PROJECT_DIR$/src/SparkMLLib/MLLib_Statistics.scala" />
     </list>
     <ignored path="sparkLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MLLib_Statistics.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MLLib_Statistics.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SparkMLLib/MLLib_Statistics.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="21">
               <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
               <folding>
                 <element signature="e#20#64#0" expanded="true" />
@@ -41,10 +41,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="HelloTrait.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DTSpark/Scala/Basics/HelloTrait.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Vectors.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/linalg/Vectors.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="5208">
               <caret line="280" column="45" selection-start-line="280" selection-start-column="5" selection-end-line="280" selection-end-column="47" />
               <folding />
             </state>
@@ -54,7 +64,7 @@
       <file leaf-file-name="MultivariateStatisticalSummary.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateStatisticalSummary.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="1029">
               <caret line="65" column="36" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="39" />
               <folding />
             </state>
@@ -64,7 +74,7 @@
       <file leaf-file-name="SparkContext.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spark-1.6.3/core/src/main/scala/org/apache/spark/SparkContext.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="16065">
               <caret line="827" column="6" selection-start-line="827" selection-start-column="6" selection-end-line="827" selection-end-column="6" />
               <folding />
             </state>
@@ -74,7 +84,7 @@
       <file leaf-file-name="Statistics.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/Statistics.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state relative-caret-position="273">
               <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
               <folding />
             </state>
@@ -84,7 +94,7 @@
       <file leaf-file-name="RowMatrix.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/linalg/distributed/RowMatrix.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="7875">
               <caret line="404" column="66" selection-start-line="404" selection-start-column="66" selection-end-line="404" selection-end-column="66" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -96,21 +106,8 @@
       <file leaf-file-name="MultivariateOnlineSummarizer.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateOnlineSummarizer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
+            <state relative-caret-position="525">
               <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#839#895#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rdd0.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7476">
-              <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -119,7 +116,7 @@
       <file leaf-file-name="LogQuery.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SparkRDD/LogQuery.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-483">
+            <state relative-caret-position="147">
               <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
@@ -129,7 +126,7 @@
       <file leaf-file-name="Cogroup.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SparkRDD/Cogroup.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="147">
               <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
@@ -141,8 +138,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Package Object" />
         <option value="Scala Script" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -166,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SparkStreaming/streamingmodel/Streaming.scala" />
         <option value="$PROJECT_DIR$/Resources/document/DataFrame" />
         <option value="$PROJECT_DIR$/Resources/data/collectApp/1" />
         <option value="$PROJECT_DIR$/Resources/data/collectApp/2" />
@@ -217,6 +213,7 @@
         <option value="$PROJECT_DIR$/src/SparkMLLib/Statistics.scala" />
         <option value="$PROJECT_DIR$/Resources/data/Statistics/sample_stat.txt" />
         <option value="$PROJECT_DIR$/src/SparkMLLib/MLLib_Statistics.scala" />
+        <option value="$PROJECT_DIR$/src/DTSpark/Scala/Basics/HelloTrait.scala" />
       </list>
     </option>
   </component>
@@ -262,8 +259,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -310,138 +307,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkSQL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
+              <option name="myItemId" value="Basics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SparkRDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SparkRDD" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Actions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SparkMLLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Statistics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="HelloTrait.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -452,7 +323,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spark-1.6.3" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32528734" />
@@ -474,7 +345,7 @@
       <recent name="D:\sparkLab\Resources\image" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Statistics">
+  <component name="RunManager" selected="Application.HelloTrait">
     <configuration default="false" name="Reflection" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -543,6 +414,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="SparkRDD.Sample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparkLab" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HelloTrait" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DTSpark.Scala.Basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="DTSpark.Scala.Basics.HelloTrait" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -891,20 +782,22 @@
       <envs />
       <method />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.Statistics" />
       <item index="1" class="java.lang.String" itemvalue="Application.MLLibBasic" />
       <item index="2" class="java.lang.String" itemvalue="Application.Reflection" />
       <item index="3" class="java.lang.String" itemvalue="Application.map" />
       <item index="4" class="java.lang.String" itemvalue="Application.flatMap" />
       <item index="5" class="java.lang.String" itemvalue="Application.Sample" />
+      <item index="6" class="java.lang.String" itemvalue="Application.HelloTrait" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Reflection" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Sample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.flatMap" />
-        <item index="3" class="java.lang.String" itemvalue="Application.map" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.HelloTrait" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Reflection" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Sample" />
+        <item index="3" class="java.lang.String" itemvalue="Application.flatMap" />
+        <item index="4" class="java.lang.String" itemvalue="Application.map" />
       </list>
     </recent_temporary>
   </component>
@@ -926,13 +819,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465280223218</updated>
-    </task>
-    <task id="LOCAL-00027" summary="2016-7-12 添加Sample.scala和Cogroup.scala例子">
-      <created>1468312853991</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1468312853991</updated>
     </task>
     <task id="LOCAL-00028" summary="2016-7-13 添加KafkaDoc">
       <created>1468399354335</created>
@@ -1270,7 +1156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482850232671</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="2016-12-27 添加MLLib_Statistics相关操作---注释说明2">
+      <created>1482850940223</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1482850940224</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1284,12 +1177,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19324182" sideWeight="0.5040128" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18041511" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3843717" sideWeight="0.49598715" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22478071" sideWeight="0.49598715" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18946248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1891149" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1316,7 +1209,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：union算子" />
     <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：intersection算子" />
     <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：distinct算子" />
     <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：groupBy()算子" />
@@ -1341,7 +1233,8 @@
     <MESSAGE value="2016-12-12 SparkRDD: 总结result1.collect.foreach(x =&gt; print(x + &quot;,&quot;))和println(result1.collect().mkString(&quot;,&quot;))输出方式的区别" />
     <MESSAGE value="2016-12-27 添加MLLib_Statistics相关操作" />
     <MESSAGE value="2016-12-27 添加MLLib_Statistics相关操作---注释说明1" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-12-27 添加MLLib_Statistics相关操作---注释说明1" />
+    <MESSAGE value="2016-12-27 添加MLLib_Statistics相关操作---注释说明2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-12-27 添加MLLib_Statistics相关操作---注释说明2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1354,20 +1247,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Kafka/PageViewStream.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/develop/cdh5.9.0_jars/spark-core_2.10-1.6.0-cdh5.9.0.jar!/org/apache/spark/SparkConf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spark-1.6.3/core/src/main/scala/org/apache/spark/SparkConf.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1870">
@@ -1506,7 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1514,7 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1522,7 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1530,7 +1406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
           <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,7 +1413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-579">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1546,7 +1420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1554,7 +1427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="37" column="50" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1562,7 +1434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1570,7 +1441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1578,7 +1448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="315" column="51" selection-start-line="315" selection-start-column="51" selection-end-line="315" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1586,7 +1455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="137" column="9" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1594,7 +1462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1602,7 +1469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1610,7 +1476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1618,7 +1483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1626,7 +1490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1634,7 +1497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="205" column="8" selection-start-line="205" selection-start-column="8" selection-end-line="205" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1642,13 +1504,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkRDD/rdd0.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7476">
+        <state relative-caret-position="1680">
           <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
           <folding />
         </state>
@@ -1656,7 +1517,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkRDD/LogQuery.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
+        <state relative-caret-position="147">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
@@ -1664,7 +1525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkRDD/Cogroup.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="147">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
@@ -1672,7 +1533,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/linalg/distributed/RowMatrix.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="7875">
           <caret line="404" column="66" selection-start-line="404" selection-start-column="66" selection-end-line="404" selection-end-column="66" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -1682,18 +1543,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateOnlineSummarizer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
+        <state relative-caret-position="525">
           <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#839#895#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../spark-1.6.3/core/src/main/scala/org/apache/spark/SparkContext.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="16065">
           <caret line="827" column="6" selection-start-line="827" selection-start-column="6" selection-end-line="827" selection-end-column="6" />
           <folding />
         </state>
@@ -1703,13 +1561,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/linalg/Vectors.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="5208">
           <caret line="280" column="45" selection-start-line="280" selection-start-column="5" selection-end-line="280" selection-end-column="47" />
           <folding />
         </state>
@@ -1717,7 +1574,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/Statistics.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
+        <state relative-caret-position="273">
           <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
           <folding />
         </state>
@@ -1725,19 +1582,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateStatisticalSummary.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="1029">
           <caret line="65" column="36" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DTSpark/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkMLLib/MLLib_Statistics.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="21">
           <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
           <folding>
             <element signature="e#20#64#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DTSpark/Scala/Basics/HelloTrait.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
