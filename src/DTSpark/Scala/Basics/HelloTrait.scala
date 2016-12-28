@@ -50,7 +50,15 @@ class  Loggin(val name:String) extends Logger{
     log(name)
   }
 }
-
+trait Information{
+  def getInformation : String
+  def checkIn : Boolean = {
+    getInformation.equals("Spark")
+  }
+}
+class Passenger(val name : String) extends Information{
+  def getInformation = name
+}
 /**
   * 伴生对象相关
   */
@@ -71,10 +79,10 @@ object HelloTrait {
       *
       * 所以，打印的结果就是："RichLogger: "+message
       */
-    personLoggin.loggin 
+    personLoggin.loggin
 
     /**
-      * 结果如下：
+      *     结果如下：
       *
       *     Hi, welcome ! DTSpark
       *     RichLogger: DTSpark

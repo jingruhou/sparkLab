@@ -29,126 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MLLib_Statistics.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SparkMLLib/MLLib_Statistics.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
-              <folding>
-                <element signature="e#20#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HelloTrait.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DTSpark/Scala/Basics/HelloTrait.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
-              <folding>
-                <element signature="e#30#70#0" expanded="false" />
-                <element signature="n#!!doc;n#Logger#0;n#!!top" expanded="false" />
-                <element signature="n#!!doc;n#RichLogger#0;n#!!top" expanded="false" />
-                <element signature="n#!!doc;n#Loggin#0;n#!!top" expanded="false" />
-                <element signature="n#!!doc;n#HelloTrait$#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vectors.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/linalg/Vectors.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5208">
-              <caret line="280" column="45" selection-start-line="280" selection-start-column="5" selection-end-line="280" selection-end-column="47" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#841#857#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultivariateStatisticalSummary.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateStatisticalSummary.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="65" column="36" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="39" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#839#879#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SparkContext.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spark-1.6.3/core/src/main/scala/org/apache/spark/SparkContext.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16065">
-              <caret line="827" column="6" selection-start-line="827" selection-start-column="6" selection-end-line="827" selection-end-column="6" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#828#869#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Statistics.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/Statistics.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#839#870#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RowMatrix.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/linalg/distributed/RowMatrix.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7875">
-              <caret line="404" column="66" selection-start-line="404" selection-start-column="66" selection-end-line="404" selection-end-column="66" />
-              <folding>
-                <element signature="e#853#876#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultivariateOnlineSummarizer.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateOnlineSummarizer.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#839#895#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogQuery.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SparkRDD/LogQuery.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cogroup.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SparkRDD/Cogroup.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="82">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -251,8 +136,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="41" />
     <option name="y" value="30" />
-    <option name="width" value="1879" />
-    <option name="height" value="1050" />
+    <option name="width" value="1639" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -283,56 +168,7 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Basics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="NBKnowledgePane" />
     </panes>
@@ -837,13 +673,6 @@
       <option name="presentableId" value="Default" />
       <updated>1465280223218</updated>
     </task>
-    <task id="LOCAL-00029" summary="2016-7-13 添加LogQuery">
-      <created>1468403188312</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1468403188312</updated>
-    </task>
     <task id="LOCAL-00030" summary="2016-7-15 添加rdd-api.pdf">
       <created>1468548805718</created>
       <option name="number" value="00030" />
@@ -1180,11 +1009,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482913875962</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="2016-12-28 添加DTSpark子项目：trait的使用,代码注释学习1">
+      <created>1482916822880</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1482916822880</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="30" width="1879" height="1050" extended-state="6" />
+    <frame x="41" y="30" width="1639" height="1020" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1194,12 +1030,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19324182" sideWeight="0.5040128" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18041511" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19298245" sideWeight="0.49598715" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19954649" sideWeight="0.49598715" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16217703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18682711" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16327652" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.211105" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1226,7 +1062,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：distinct算子" />
     <MESSAGE value="2016-8-13 添加rdd0里面具体操作的详细注释：groupBy()算子" />
     <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：groupByKey算子" />
     <MESSAGE value="2016-8-14 添加rdd0里面具体操作的详细注释：reduceByKey算子" />
@@ -1251,7 +1086,8 @@
     <MESSAGE value="2016-12-27 添加MLLib_Statistics相关操作---注释说明1" />
     <MESSAGE value="2016-12-27 添加MLLib_Statistics相关操作---注释说明2" />
     <MESSAGE value="2016-12-28 添加DTSpark子项目：trait的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-12-28 添加DTSpark子项目：trait的使用" />
+    <MESSAGE value="2016-12-28 添加DTSpark子项目：trait的使用,代码注释学习1" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-12-28 添加DTSpark子项目：trait的使用,代码注释学习1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1532,51 +1368,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SparkRDD/LogQuery.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkRDD/Cogroup.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/linalg/distributed/RowMatrix.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7875">
-          <caret line="404" column="66" selection-start-line="404" selection-start-column="66" selection-end-line="404" selection-end-column="66" />
-          <folding>
-            <element signature="e#853#876#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateOnlineSummarizer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#839#895#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/core/src/main/scala/org/apache/spark/SparkContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16065">
-          <caret line="827" column="6" selection-start-line="827" selection-start-column="6" selection-end-line="827" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#828#869#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1587,17 +1383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/linalg/Vectors.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5208">
-          <caret line="280" column="45" selection-start-line="280" selection-start-column="5" selection-end-line="280" selection-end-column="47" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#841#857#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/Statistics.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1605,17 +1390,6 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
             <element signature="e#839#870#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateStatisticalSummary.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="65" column="36" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#839#879#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1638,17 +1412,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/linalg/Vectors.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="280" column="45" selection-start-line="280" selection-start-column="5" selection-end-line="280" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateStatisticalSummary.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="65" column="36" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/core/src/main/scala/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="827" column="6" selection-start-line="827" selection-start-column="6" selection-end-line="827" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/linalg/distributed/RowMatrix.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="404" column="66" selection-start-line="404" selection-start-column="66" selection-end-line="404" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateOnlineSummarizer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SparkRDD/LogQuery.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DTSpark/Scala/Basics/HelloTrait.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
-          <folding>
-            <element signature="e#30#70#0" expanded="false" />
-            <element signature="n#!!doc;n#Logger#0;n#!!top" expanded="false" />
-            <element signature="n#!!doc;n#RichLogger#0;n#!!top" expanded="false" />
-            <element signature="n#!!doc;n#Loggin#0;n#!!top" expanded="false" />
-            <element signature="n#!!doc;n#HelloTrait$#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="82">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
