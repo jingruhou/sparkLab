@@ -45,10 +45,23 @@ object DataGenerator {
       * Question：这种方式只是陷入了死循环，并没有循环执行，卡在那里了
       *
       * 需要继续想办法......
+      *
+      * 续：
+      * 通过命名文件夹名称区分生成的文件夹，1秒生成一个文件夹，里面不仅包含生成的数据文件，还包括：
+      *  1484838648421/._SUCCESS.crc/.part-00000.crc/_SUCCESS/part-00000
+      *
+      *  测试成功!
+      *
+      *  接下来需要完成的事情：
+      *  1）如何只生成数据文件，而不包含其他的文件
+      *  2）考虑结合Spark Streaming程序
       */
     while(true){
-      val KMeansStreamingRDD = KMeansDataGenerator.generateKMeansRDD(sc,1,5,3,1.0,2)
-      KMeansStreamingRDD.saveAsTextFile("hjrTemp")
+      val KMeansStreamingRDD = KMeansDataGenerator
+        .generateKMeansRDD(sc,1,5,3,1.0,1)
+        .map(f => Vectors.dense(f))
+
+      KMeansStreamingRDD.saveAsTextFile("out/hjrTemp/"+System.currentTimeMillis())
     }
     /**
       * （3）聚类模型训练数据
@@ -83,7 +96,7 @@ object DataGenerator {
     println("Within Set Sum of Squared Errors = "+WSSSE)
 
     //保存模型
-    val ModelPath = "out/hjrTemp"
+    val ModelPath = "out/KMeansModel"
     model.save(sc,ModelPath)
 
     val sameModel = KMeansModel.load(sc,ModelPath)
