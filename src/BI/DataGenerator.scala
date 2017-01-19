@@ -14,14 +14,13 @@ object DataGenerator {
       */
     val conf = new SparkConf().setMaster("local").setAppName("KMeansDataGenerator")
     val sc = new SparkContext(conf)
+
     /**
       * 数据生成
       */
     val KMeansRDD = KMeansDataGenerator.generateKMeansRDD(sc,50,5,3,1.0,2)
 
     KMeansRDD.count()
-
-    KMeansRDD.take(50)
 
     sc.stop()
   }
