@@ -8,8 +8,8 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
   */
 object ScoketStreaming {
   def main(args: Array[String]){
-    val conf = new SparkConf().setMaster("local[2]").setAppName("ScoketStreaming")
-    val sc = new StreamingContext(conf,Seconds(10))
+    val conf = new SparkConf().setMaster("local[24]").setAppName("ScoketStreaming")
+    val sc = new StreamingContext(conf,Seconds(1))
 
     val lines = sc.socketTextStream("hjr",9998)
     val words = lines.flatMap(_.split((" ")))
