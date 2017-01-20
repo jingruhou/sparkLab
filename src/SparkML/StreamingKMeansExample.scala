@@ -22,6 +22,8 @@ object StreamingKMeansExample {
     val conf = new SparkConf().setAppName("StreamingKMeansExample").setMaster("local[*]")
     val ssc = new StreamingContext(conf, Seconds(args(2).toLong))
 
+    //val KMeansStreamingRDD = KMeansDataGenerator.generateKMeansRDD(sc,1,5,3,1.0,1).map(f => Vectors.dense(f))
+
     val trainingData = ssc.textFileStream(args(0)).map(Vectors.parse)
     val testData = ssc.textFileStream(args(1)).map(LabeledPoint.parse)
 

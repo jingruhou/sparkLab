@@ -20,6 +20,7 @@ object DataGenerator {
     val sc = new SparkContext(conf)
     Logger.getRootLogger.setLevel(Level.WARN)//设置日志输出级别
 
+
     /**
       * （1）一次性生成批量的数据
       */
@@ -39,6 +40,8 @@ object DataGenerator {
       * 需要导入的包为：org.apache.spark.mllib.linalg.Vectors
       */
     KMeansRDD.map(f => Vectors.dense(f)).foreach(println)
+
+
     /**
       *（2）循环生成数据
       *
@@ -63,6 +66,8 @@ object DataGenerator {
 
       KMeansStreamingRDD.saveAsTextFile("out/hjrTemp/"+System.currentTimeMillis())
     }
+
+
     /**
       * （3）聚类模型训练数据
       */
@@ -82,7 +87,7 @@ object DataGenerator {
       * ......)
       */
 
-    val initMode = "k-means||"
+    val initMode = "k-means||" //k-means++
     val numClusters = 2
     val numIterations = 20
     val model = new KMeans()
