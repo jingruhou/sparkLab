@@ -24,7 +24,7 @@ object QueueStream {
       * 实例化StreamingContext
       */
     StreamingExamples.setStreamingLogLevels()
-    val sparkConf = new SparkConf().setAppName("QueueStream").setMaster("local")
+    val sparkConf = new SparkConf().setAppName("QueueStream").setMaster("local[4]")
     // Create the context
     val ssc = new StreamingContext(sparkConf, Seconds(1))
 
@@ -43,7 +43,9 @@ object QueueStream {
     val inputStream = ssc.queueStream(rddQueue)
     val mappedStream = inputStream.map(x => (x % 10, 1))
     val reducedStream = mappedStream.reduceByKey(_ + _)
+    //打印结果
     reducedStream.print()
+    //启动计算
     ssc.start()
 
     /**
@@ -57,6 +59,7 @@ object QueueStream {
       }
       Thread.sleep(1000)//线程休眠1秒钟
     }
+    //通过程序停止StreamingContext的运行
     ssc.stop()
   }
 }
