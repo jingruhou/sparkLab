@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SparkStreaming/DStreamTransformation.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SparkStreaming/QueueStream.scala" afterPath="$PROJECT_DIR$/src/SparkStreaming/QueueStream.scala" />
     </list>
     <ignored path="sparkLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,12 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QueueStream.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SparkStreaming/QueueStream.scala">
+      <file leaf-file-name="DStreamTransformation.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SparkStreaming/DStreamTransformation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="49">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <element signature="e#24#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/StreamingMLLib/LinearRegression/MonitoringStreamingModel.scala" />
         <option value="$PROJECT_DIR$/src/StreamingMLLib/LinearRegression/StreamingModelProducer.scala" />
         <option value="$PROJECT_DIR$/src/SparkMLLib/MLLib.scala" />
         <option value="$PROJECT_DIR$/src/StreamingMLLib/LinearRegression/SimpleStreamingModel.scala" />
@@ -120,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/SparkStreaming/NetworkWordCount.scala" />
         <option value="$PROJECT_DIR$/../spark-1.6.3/examples/src/main/scala/org/apache/spark/examples/streaming/StreamingExamples.scala" />
         <option value="$PROJECT_DIR$/src/SparkStreaming/QueueStream.scala" />
+        <option value="$PROJECT_DIR$/src/SparkStreaming/DStreamTransformation.scala" />
       </list>
     </option>
   </component>
@@ -136,8 +138,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="41" />
     <option name="y" value="30" />
-    <option name="width" value="1639" />
-    <option name="height" value="1020" />
+    <option name="width" value="1879" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -214,6 +216,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Streaming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -247,7 +281,7 @@
       <recent name="D:\sparkLab\Resources\image" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueStream">
+  <component name="RunManager" selected="Application.DStreamTransformation">
     <configuration default="false" name="DataGenerator" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -256,26 +290,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="BI.DataGenerator" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sparkLab" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="GenerateChar" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="SparkStreaming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="SparkStreaming.GenerateChar" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -336,6 +350,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="SparkStreaming.QueueStream" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparkLab" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DStreamTransformation" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SparkStreaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="SparkStreaming.DStreamTransformation" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -688,18 +722,18 @@
       <item index="0" class="java.lang.String" itemvalue="Application.Statistics" />
       <item index="1" class="java.lang.String" itemvalue="Application.MLLibBasic" />
       <item index="2" class="java.lang.String" itemvalue="Application.DataGenerator" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GenerateChar" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ScoketStreaming" />
-      <item index="5" class="java.lang.String" itemvalue="Application.NetworkWordCount" />
-      <item index="6" class="java.lang.String" itemvalue="Application.QueueStream" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ScoketStreaming" />
+      <item index="4" class="java.lang.String" itemvalue="Application.NetworkWordCount" />
+      <item index="5" class="java.lang.String" itemvalue="Application.QueueStream" />
+      <item index="6" class="java.lang.String" itemvalue="Application.DStreamTransformation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.QueueStream" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NetworkWordCount" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DataGenerator" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ScoketStreaming" />
-        <item index="4" class="java.lang.String" itemvalue="Application.GenerateChar" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DStreamTransformation" />
+        <item index="1" class="java.lang.String" itemvalue="Application.QueueStream" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NetworkWordCount" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DataGenerator" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ScoketStreaming" />
       </list>
     </recent_temporary>
   </component>
@@ -721,13 +755,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465280223218</updated>
-    </task>
-    <task id="LOCAL-00038" summary="2016-8-1 新建SparkStreaming案例：BashSpark">
-      <created>1470034406404</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1470034406404</updated>
     </task>
     <task id="LOCAL-00039" summary="2016-8-2 添加BashSpark注释（）">
       <created>1470132420397</created>
@@ -1065,7 +1092,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485193090424</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="2017-1-24 测试运行并注释Spark官网例子程序QueueStream">
+      <created>1485242117793</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1485242117794</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1078,21 +1112,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="30" width="1639" height="1020" extended-state="6" />
+    <frame x="41" y="30" width="1879" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29276314" sideWeight="0.4906367" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276644" sideWeight="0.5030236" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18041511" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4364035" sideWeight="0.49367785" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3607456" sideWeight="0.49367785" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32785088" sideWeight="0.49697635" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.49807587" order="9" side_tool="false" content_ui="tabs" x="62" y="726" width="1829" height="330" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47149122" sideWeight="0.49807587" order="9" side_tool="false" content_ui="tabs" x="62" y="726" width="1829" height="330" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21025966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18251787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.211105" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1102,7 +1137,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16327652" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29276314" sideWeight="0.4906367" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46821705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1138,7 +1172,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-8-15 添加MPI项目的Tomact/conf/server.xml和context.xml配置文件" />
     <MESSAGE value="2016-8-18 添加搭建kylin出现的问题总结" />
     <MESSAGE value="2016-8-20 添加oracle详细讲解pdf文档" />
     <MESSAGE value="2016-8-21 添加rdd0里面具体操作的详细注释：join算子操作" />
@@ -1163,7 +1196,8 @@
     <MESSAGE value="2017-1-20 测试DataGenerator_StreamingKMeans" />
     <MESSAGE value="2017-1-23 测试运行并注释Spark官网例子程序HdfsWordCount" />
     <MESSAGE value="2017-1-24 测试运行并注释Spark官网例子程序NetworkWordCount" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017-1-24 测试运行并注释Spark官网例子程序NetworkWordCount" />
+    <MESSAGE value="2017-1-24 测试运行并注释Spark官网例子程序QueueStream" />
+    <option name="LAST_COMMIT_MESSAGE" value="2017-1-24 测试运行并注释Spark官网例子程序QueueStream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1176,13 +1210,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/core/src/main/scala/org/apache/spark/scheduler/Task.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spark-1.6.3/core/src/main/scala/org/apache/spark/executor/Executor.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1294,13 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/streaming/src/main/scala/org/apache/spark/streaming/Duration.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1427,14 +1447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SparkStreaming/HdfsWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="26" column="72" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spark-1.6.3/streaming/src/main/scala/org/apache/spark/streaming/StreamingContext.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -1464,6 +1476,32 @@
         <state relative-caret-position="54">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/streaming/src/main/scala/org/apache/spark/streaming/Duration.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SparkStreaming/HdfsWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="26" column="72" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SparkStreaming/DStreamTransformation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
