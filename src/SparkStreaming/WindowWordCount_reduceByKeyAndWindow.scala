@@ -8,7 +8,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 /**
   * Created by hjr on 17-1-25.
   */
-object WindowWordCount {
+object WindowWordCount_reduceByKeyAndWindow {
   def main(args: Array[String]): Unit = {
     //传入的参数为127.0.0.1 8341 30 10
     if(args.length!=4){
@@ -17,7 +17,7 @@ object WindowWordCount {
     }
     StreamingExamples.setStreamingLogLevels()
 
-    val conf = new SparkConf().setAppName("WindowWordCount").setMaster("local[4]")
+    val conf = new SparkConf().setAppName("WindowWordCount_reduceByKeyAndWindow").setMaster("local[4]")
     val sc = new SparkContext(conf)
 
     //创建StreamingContext,batch interval为5秒
