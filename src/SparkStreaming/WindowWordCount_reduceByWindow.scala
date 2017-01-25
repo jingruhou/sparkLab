@@ -28,16 +28,10 @@ object WindowWordCount_reduceByWindow {
     val lines = ssc.socketTextStream(args(0), args(1).toInt, StorageLevel.MEMORY_ONLY_SER)
     val words = lines.flatMap(_.split(" "))
 
-    //countByWindow方法计算基于滑动窗口的DStream中的元素的数量
+    //reduceByWindow方法基于滑动窗口对源DStream中的元素进行聚合操作，返回包含单元素的一个新的DStream
+    val reduceByWindow=words.map(x=>1).reduceByWindow(_+_,_-_,Seconds(args(2).toInt), Seconds(args(3).toInt))
 
-    val countByWindow = words.countByWindow(Seconds(args(2).toInt),Seconds(args(3).toInt))
-
-    countByWindow.print()
-
-    //val reduceByWindow = words.map(x =>1).reduceByWindow(_ + _,_-_Seconds(args(2).toInt), Seconds(args(3).toInt))
-    //val reduceByWindow=words.map(x=>1).reduceByWindow(_+_,_-_Seconds(args(2).toInt), Seconds(args(3).toInt))
-
-    //reduceByWindow.print()
+    reduceByWindow.print()
 
     ssc.start()
     ssc.awaitTermination()
