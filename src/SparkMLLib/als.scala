@@ -1,5 +1,6 @@
 package SparkMLLib
 
+import org.apache.log4j.{Level, Logger}
 import org.apache.spark.mllib.recommendation.{ALS, MatrixFactorizationModel, Rating}
 import org.apache.spark.{SparkConf, SparkContext}
 
@@ -16,20 +17,23 @@ object als {
 
     val sc = new SparkContext(conf)
     //设置日志输出级别
-    //Logger.getRootLogger.setLevel(Level.WARN)
+    Logger.getRootLogger.setLevel(Level.WARN)
 
     /**
       * 2 读取样本数据
       */
-    val data = sc.textFile("Resources/MLLib/als/test.data")
+    //val data = sc.textFile("Resources/MLLib/als/test.data")
+    val data = sc.textFile("Resources/MLLib/als/ratings.dat")
     //val data = sc.textFile("/sparkSourceData/als/test.data")
 
-    val ratings = data.map(_.split(',') match{
-      case Array(user,item,rate) =>
+    val ratings = data.map(_.split("::") match{
+      case Array(user,item,rate,ts) =>
         Rating(user.toInt, item.toInt, rate.toDouble)
-    })
+    }).cache()
+    //查看第一条记录
+    println(ratings.first())
 
-   /* /**
+   /**
       * 3 建立模型
       */
     val rank = 10
@@ -43,8 +47,6 @@ object als {
       case Rating(user, product, rate) =>
         (user, product)
     }
-
-    usersProducts.collect().foreach(println)
 
     val predictions =
       model.predict(usersProducts).map{
@@ -69,7 +71,7 @@ object als {
     val ModelPath = "Resources/MLLib/als/ALS_Model"
     //val ModelPath = "/sparkSourceData/als/hjrTemp/ALS_Model"
     model.save(sc, ModelPath)
-    val sameModel = MatrixFactorizationModel.load(sc, ModelPath)*/
+    val sameModel = MatrixFactorizationModel.load(sc, ModelPath)
 
   }
 }

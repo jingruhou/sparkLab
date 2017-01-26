@@ -6,12 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SparkMLLib/SparkALS.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCount$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCountProducer$.class" afterPath="$PROJECT_DIR$/out/production/sparkLab/SparkStreaming/KafkaWordCountProducer$.class" />
+    <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="2017-1-26 运行als模型成功">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/MLLib/MovieLensALS/sample_movielens_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/MLLib/als/ratings.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SparkMLLib/MovieLensALS.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/MLLib/als/test.data" afterPath="$PROJECT_DIR$/Resources/MLLib/als/test.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SparkMLLib/als.scala" afterPath="$PROJECT_DIR$/src/SparkMLLib/als.scala" />
     </list>
     <ignored path="sparkLab.iws" />
@@ -33,12 +32,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SparkALS.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SparkMLLib/SparkALS.scala">
+      <file leaf-file-name="als.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SparkMLLib/als.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="1225">
+              <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+              <folding>
+                <element signature="e#20#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SparkRDD/test2.scala" />
         <option value="$PROJECT_DIR$/Resources/blog/bigdata" />
         <option value="$PROJECT_DIR$/Resources/blog/learningBlog" />
         <option value="$PROJECT_DIR$/Resources/java/object" />
@@ -122,8 +122,9 @@
         <option value="$PROJECT_DIR$/src/StreamingMLLib/ALS/DataGenerator_StreamingALS.scala" />
         <option value="$PROJECT_DIR$/src/StreamingMLLib/ALS/StreamingALSModel.scala" />
         <option value="$PROJECT_DIR$/src/SparkMLLib/ALS1.scala" />
-        <option value="$PROJECT_DIR$/src/SparkMLLib/als.scala" />
         <option value="$PROJECT_DIR$/src/SparkMLLib/SparkALS.scala" />
+        <option value="$PROJECT_DIR$/src/SparkMLLib/MovieLensALS.scala" />
+        <option value="$PROJECT_DIR$/src/SparkMLLib/als.scala" />
       </list>
     </option>
   </component>
@@ -140,8 +141,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="41" />
     <option name="y" value="30" />
-    <option name="width" value="1879" />
-    <option name="height" value="1050" />
+    <option name="width" value="1639" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -168,7 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,33 +212,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SparkMLLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SparkALS.scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SparkMLLib" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,22 +226,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkMLLib" />
+              <option name="myItemId" value="MLLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="als.scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MLLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="als" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="NBKnowledgePane" />
     </panes>
   </component>
@@ -285,11 +278,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/SparkMLLib" />
       <recent name="$PROJECT_DIR$/Resources/MLLib/als" />
+      <recent name="$PROJECT_DIR$/Resources/MLLib/MovieLensALS" />
+      <recent name="$PROJECT_DIR$/src/SparkMLLib" />
       <recent name="$PROJECT_DIR$/Resources/image" />
       <recent name="E:\bigdata\Spark\sparkLab\Resources\pdf" />
-      <recent name="E:\bigdata\Spark\sparkLab\Resources\document" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\sparkLab\Resources\image" />
@@ -316,17 +309,37 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="als" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="SparkALS" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="SparkMLLib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="SparkMLLib.als" />
+      <option name="MAIN_CLASS_NAME" value="SparkMLLib.SparkALS" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparkLab" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MovieLensALS" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SparkMLLib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="SparkMLLib.MovieLensALS" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="Resources/MLLib/MovieLensALS/sample_movielens_data.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -672,16 +685,39 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <configuration default="false" name="als" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SparkMLLib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="SparkMLLib.als" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparkLab" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Statistics" />
       <item index="1" class="java.lang.String" itemvalue="Application.MLLibBasic" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StreamingALSModel" />
-      <item index="3" class="java.lang.String" itemvalue="Application.als" />
+      <item index="2" class="java.lang.String" itemvalue="Application.als" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StreamingALSModel" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SparkALS" />
+      <item index="5" class="java.lang.String" itemvalue="Application.MovieLensALS" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.als" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StreamingALSModel" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.MovieLensALS" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SparkALS" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StreamingALSModel" />
       </list>
     </recent_temporary>
   </component>
@@ -703,13 +739,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465280223218</updated>
-    </task>
-    <task id="LOCAL-00046" summary="2016-8-13 添加rdd0里面具体操作的详细注释：flatmap算子操作">
-      <created>1471085185313</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1471085185313</updated>
     </task>
     <task id="LOCAL-00047" summary="2016-8-13 添加rdd0里面具体操作的详细注释：mapPartitions算子">
       <created>1471085682099</created>
@@ -1047,7 +1076,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485417081966</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="2017-1-26 添加官网例子：SparkALS，并成功运行">
+      <created>1485434080515</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1485434080516</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1060,8 +1096,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="30" width="1879" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="41" y="30" width="1639" height="1020" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1069,22 +1105,22 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267544" sideWeight="0.5030236" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18041511" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2872807" sideWeight="0.49367785" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51927435" sideWeight="0.49697635" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5010965" sideWeight="0.49367785" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51864034" sideWeight="0.49697635" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20394737" sideWeight="0.49807587" order="9" side_tool="false" content_ui="tabs" x="62" y="726" width="1829" height="330" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24463992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18239392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.211105" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19627193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19614512" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16327652" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29276314" sideWeight="0.4906367" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.292517" sideWeight="0.4906367" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46821705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1120,7 +1156,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-12-12 SparkRDD:计算RDD中各值的平方（map算子应用）" />
     <MESSAGE value="2016-12-12 SparkRDD:mkString()方法使用实例" />
     <MESSAGE value="2016-12-12 SparkRDD:flatMap() 操作使用实例" />
     <MESSAGE value="2016-12-12 SparkRDD: 总结result1.collect.foreach(x =&gt; print(x + &quot;,&quot;))和println(result1.collect().mkString(&quot;,&quot;))输出方式的区别" />
@@ -1145,10 +1180,14 @@
     <MESSAGE value="2017-1-25 学习WindowWordCount_reduceByWindow" />
     <MESSAGE value="2017-1-25 学习SqlNetworkWordCount" />
     <MESSAGE value="2017-1-26 运行als模型报错：Exception in thread &quot;main&quot; org.apache.spark.SparkException: Job aborted due to stage failure: Task serialization failed: java.lang.StackOverflowError java.lang.reflect.Method.invoke(Method.java:498)......" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017-1-26 运行als模型报错：Exception in thread &quot;main&quot; org.apache.spark.SparkException: Job aborted due to stage failure: Task serialization failed: java.lang.StackOverflowError java.lang.reflect.Method.invoke(Method.java:498)......" />
+    <MESSAGE value="2017-1-26 添加官网例子：SparkALS，并成功运行" />
+    <option name="LAST_COMMIT_MESSAGE" value="2017-1-26 添加官网例子：SparkALS，并成功运行" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
@@ -1158,16 +1197,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hjrTemp/part-00000" />
-    <entry file="file://$PROJECT_DIR$/hjrTemp/part-00001" />
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-718">
-          <caret line="1435" column="6" selection-start-line="1435" selection-start-column="6" selection-end-line="1435" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/hjrTemp/part-00000" />
     <entry file="file://$PROJECT_DIR$/out/hjrTemp/part-00001" />
     <entry file="file://$PROJECT_DIR$/out/hjrTemp/.part-00001.crc" />
     <entry file="file://$PROJECT_DIR$/out/hjrTemp/._SUCCESS.crc" />
@@ -1361,10 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
           <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#838#892#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1439,21 +1464,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SparkMLLib/als.scala">
+    <entry file="file://$PROJECT_DIR$/src/SparkMLLib/SparkALS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding>
-            <element signature="e#20#104#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="87" column="56" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SparkMLLib/SparkALS.scala">
+    <entry file="file://$PROJECT_DIR$/Resources/MLLib/MovieLensALS/sample_movielens_data.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SparkMLLib/MovieLensALS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/MLLib/als/ALS_Model/metadata/part-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/MLLib/als/ALS_Model/data/user/part-r-00000-72205136-c6b7-4215-a998-9e7d80c7151c.gz.parquet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SparkMLLib/als.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+          <folding>
+            <element signature="e#20#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
