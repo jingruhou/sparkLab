@@ -1,8 +1,8 @@
 package SparkMLLib
 
-import org.apache.log4j.{Level, Logger}
-import org.apache.spark.mllib.recommendation.{ALS, Rating, MatrixFactorizationModel}
+import org.apache.spark.mllib.recommendation.{ALS, MatrixFactorizationModel, Rating}
 import org.apache.spark.{SparkConf, SparkContext}
+
 /**
   * Created by hjr on 17-1-26.
   */
@@ -16,7 +16,7 @@ object als {
 
     val sc = new SparkContext(conf)
     //设置日志输出级别
-    Logger.getRootLogger.setLevel(Level.WARN)
+    //Logger.getRootLogger.setLevel(Level.WARN)
 
     /**
       * 2 读取样本数据
@@ -29,7 +29,7 @@ object als {
         Rating(user.toInt, item.toInt, rate.toDouble)
     })
 
-    /**
+   /* /**
       * 3 建立模型
       */
     val rank = 10
@@ -43,6 +43,8 @@ object als {
       case Rating(user, product, rate) =>
         (user, product)
     }
+
+    usersProducts.collect().foreach(println)
 
     val predictions =
       model.predict(usersProducts).map{
@@ -67,7 +69,7 @@ object als {
     val ModelPath = "Resources/MLLib/als/ALS_Model"
     //val ModelPath = "/sparkSourceData/als/hjrTemp/ALS_Model"
     model.save(sc, ModelPath)
-    val sameModel = MatrixFactorizationModel.load(sc, ModelPath)
+    val sameModel = MatrixFactorizationModel.load(sc, ModelPath)*/
 
   }
 }
