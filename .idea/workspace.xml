@@ -6,12 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="2017-1-26 运行als模型成功">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/MLLib/MovieLensALS/sample_movielens_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/MLLib/als/ratings.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SparkMLLib/MovieLensALS.scala" />
+    <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="2017-1-26">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SparkMLLib/als.scala" afterPath="$PROJECT_DIR$/src/SparkMLLib/als.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StreamingMLLib/ALS/DataGenerator_StreamingALS.scala" afterPath="$PROJECT_DIR$/src/StreamingMLLib/ALS/DataGenerator_StreamingALS.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StreamingMLLib/ALS/StreamingALSModel.scala" afterPath="$PROJECT_DIR$/src/StreamingMLLib/ALS/StreamingALSModel.scala" />
     </list>
     <ignored path="sparkLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,14 +30,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="als.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="als.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SparkMLLib/als.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1225">
-              <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+            <state relative-caret-position="103">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="e#20#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ALS.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/recommendation/ALS.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="343" column="6" selection-start-line="343" selection-start-column="6" selection-end-line="343" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataGenerator_StreamingALS.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/ALS/DataGenerator_StreamingALS.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding>
+                <element signature="e#28#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamingALSModel.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/ALS/StreamingALSModel.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+              <folding>
+                <element signature="e#28#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamingKMeansExample.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/StreamingKMeansExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamingKMeans.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/clustering/StreamingKMeans.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1365">
+              <caret line="171" column="6" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,12 +171,12 @@
         <option value="$PROJECT_DIR$/src/SparkStreaming/WindowWordCount_reduceByWindow.scala" />
         <option value="$PROJECT_DIR$/src/SparkStreaming/SqlNetworkWordCount.scala" />
         <option value="$PROJECT_DIR$/tmp/sparkstreaming/StreamingModel.scala" />
-        <option value="$PROJECT_DIR$/src/StreamingMLLib/ALS/DataGenerator_StreamingALS.scala" />
-        <option value="$PROJECT_DIR$/src/StreamingMLLib/ALS/StreamingALSModel.scala" />
         <option value="$PROJECT_DIR$/src/SparkMLLib/ALS1.scala" />
         <option value="$PROJECT_DIR$/src/SparkMLLib/SparkALS.scala" />
         <option value="$PROJECT_DIR$/src/SparkMLLib/MovieLensALS.scala" />
         <option value="$PROJECT_DIR$/src/SparkMLLib/als.scala" />
+        <option value="$PROJECT_DIR$/src/StreamingMLLib/ALS/DataGenerator_StreamingALS.scala" />
+        <option value="$PROJECT_DIR$/src/StreamingMLLib/ALS/StreamingALSModel.scala" />
       </list>
     </option>
   </component>
@@ -201,18 +253,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
+              <option name="myItemId" value="StreamingMLLib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,11 +268,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MLLib" />
+              <option name="myItemId" value="StreamingMLLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ALS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,15 +290,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MLLib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="als" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,7 +326,7 @@
       <recent name="D:\sparkLab\Resources\image" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.als">
+  <component name="RunManager" selected="Application.StreamingALSModel">
     <configuration default="false" name="StreamingALSModel" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -339,6 +377,26 @@
       <option name="MAIN_CLASS_NAME" value="SparkMLLib.MovieLensALS" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="Resources/MLLib/MovieLensALS/sample_movielens_data.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparkLab" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DataGenerator_StreamingALS" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="StreamingMLLib.ALS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="StreamingMLLib.ALS.DataGenerator_StreamingALS" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="Resources/MLLib/als/ratings.dat 8341 2000" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -705,19 +763,21 @@
       <envs />
       <method />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.Statistics" />
       <item index="1" class="java.lang.String" itemvalue="Application.MLLibBasic" />
       <item index="2" class="java.lang.String" itemvalue="Application.als" />
       <item index="3" class="java.lang.String" itemvalue="Application.StreamingALSModel" />
       <item index="4" class="java.lang.String" itemvalue="Application.SparkALS" />
       <item index="5" class="java.lang.String" itemvalue="Application.MovieLensALS" />
+      <item index="6" class="java.lang.String" itemvalue="Application.DataGenerator_StreamingALS" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.MovieLensALS" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SparkALS" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StreamingALSModel" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.DataGenerator_StreamingALS" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StreamingALSModel" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MovieLensALS" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SparkALS" />
       </list>
     </recent_temporary>
   </component>
@@ -739,13 +799,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465280223218</updated>
-    </task>
-    <task id="LOCAL-00047" summary="2016-8-13 添加rdd0里面具体操作的详细注释：mapPartitions算子">
-      <created>1471085682099</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1471085682099</updated>
     </task>
     <task id="LOCAL-00048" summary="2016-8-13 添加rdd0里面具体操作的详细注释：sample算子">
       <created>1471086353831</created>
@@ -1083,7 +1136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485434080516</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="2017-1-26 运行als模型成功">
+      <created>1485443545992</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1485443545993</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1097,20 +1157,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="30" width="1639" height="1020" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.292517" sideWeight="0.4906367" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267544" sideWeight="0.5030236" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18041511" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5010965" sideWeight="0.49367785" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46258503" sideWeight="0.49367785" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51864034" sideWeight="0.49697635" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20394737" sideWeight="0.49807587" order="9" side_tool="false" content_ui="tabs" x="62" y="726" width="1829" height="330" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18239392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2590247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.211105" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1120,7 +1181,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16327652" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.292517" sideWeight="0.4906367" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46821705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1156,7 +1216,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-12-12 SparkRDD:mkString()方法使用实例" />
     <MESSAGE value="2016-12-12 SparkRDD:flatMap() 操作使用实例" />
     <MESSAGE value="2016-12-12 SparkRDD: 总结result1.collect.foreach(x =&gt; print(x + &quot;,&quot;))和println(result1.collect().mkString(&quot;,&quot;))输出方式的区别" />
     <MESSAGE value="2016-12-27 添加MLLib_Statistics相关操作" />
@@ -1181,7 +1240,8 @@
     <MESSAGE value="2017-1-25 学习SqlNetworkWordCount" />
     <MESSAGE value="2017-1-26 运行als模型报错：Exception in thread &quot;main&quot; org.apache.spark.SparkException: Job aborted due to stage failure: Task serialization failed: java.lang.StackOverflowError java.lang.reflect.Method.invoke(Method.java:498)......" />
     <MESSAGE value="2017-1-26 添加官网例子：SparkALS，并成功运行" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017-1-26 添加官网例子：SparkALS，并成功运行" />
+    <MESSAGE value="2017-1-26 运行als模型成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="2017-1-26 运行als模型成功" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1197,8 +1257,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/hjrTemp/part-00001" />
-    <entry file="file://$PROJECT_DIR$/out/hjrTemp/.part-00001.crc" />
     <entry file="file://$PROJECT_DIR$/out/hjrTemp/._SUCCESS.crc" />
     <entry file="file://$PROJECT_DIR$/out/hjrTemp/data/part-r-00000-8fdf338c-a63e-4e18-93eb-1eb0dec3a3a9.gz.parquet" />
     <entry file="file://$PROJECT_DIR$/out/hjrTemp/1484837995835/part-00000" />
@@ -1250,13 +1308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/StreamingKMeansExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="49" column="11" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1421,24 +1472,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/ALS/StreamingALSModel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/LinearRegression/SimpleStreamingModel.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/ALS/DataGenerator_StreamingALS.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1457,13 +1494,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkMLLib/ALS1.scala" />
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/recommendation/ALS.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3255">
-          <caret line="279" column="7" selection-start-line="279" selection-start-column="7" selection-end-line="279" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkMLLib/SparkALS.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1482,6 +1512,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1489,6 +1520,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1500,12 +1532,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/recommendation/ALS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="343" column="6" selection-start-line="343" selection-start-column="6" selection-end-line="343" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/recommendation/MatrixFactorizationModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-599">
+          <caret line="244" column="7" selection-start-line="244" selection-start-column="7" selection-end-line="244" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkMLLib/als.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+        <state relative-caret-position="103">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="e#20#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/StreamingKMeansExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/clustering/StreamingKMeans.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="171" column="6" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/ALS/StreamingALSModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="e#28#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/ALS/DataGenerator_StreamingALS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#28#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
