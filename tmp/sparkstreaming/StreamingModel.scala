@@ -85,7 +85,7 @@ object SimpleStreamingModel {
 
   def main(args: Array[String]) {
 
-    val ssc = new StreamingContext("local[2]", "First Streaming App", Seconds(10))
+    val ssc = new StreamingContext("local[4]", "First Streaming App", Seconds(10))
     val stream = ssc.socketTextStream("localhost", 9999)
 
     val NumFeatures = 100
@@ -104,9 +104,9 @@ object SimpleStreamingModel {
     }
 
     // train and test model on the stream, and print predictions for illustrative purposes
-    //model.trainOn(labeledStream)
+    model.trainOn(labeledStream)
 
-    //model.predictOn(labeledStream).print()
+    model.predictOn(labeledStream).print()
 
     ssc.start()
     ssc.awaitTermination()

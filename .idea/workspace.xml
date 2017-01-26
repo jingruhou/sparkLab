@@ -7,9 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c573ab8-9d00-4238-a4f3-b78aa4ba39df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SparkStreaming/SqlNetworkWordCount.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/MLLib/als/test.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SparkMLLib/als.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StreamingMLLib/ALS/DataGenerator_StreamingALS.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StreamingMLLib/ALS/StreamingALSModel.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SparkStreaming/WindowWordCount_reduceByWindow.scala" afterPath="$PROJECT_DIR$/src/SparkStreaming/WindowWordCount_reduceByWindow.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/sparkstreaming/StreamingModel.scala" afterPath="$PROJECT_DIR$/tmp/sparkstreaming/StreamingModel.scala" />
     </list>
     <ignored path="sparkLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,25 +34,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SqlNetworkWordCount.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SparkStreaming/SqlNetworkWordCount.scala">
+      <file leaf-file-name="als.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SparkMLLib/als.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding>
-                <element signature="e#24#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WindowWordCount_reduceByWindow.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SparkStreaming/WindowWordCount_reduceByWindow.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-              <folding>
-                <element signature="e#24#73#0" expanded="true" />
+                <element signature="e#20#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,11 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Resources/document/KafkaDoc" />
-        <option value="$PROJECT_DIR$/src/Business/Sogou/SogouCount.scala" />
-        <option value="$PROJECT_DIR$/src/SparkRDD/LogQuery.scala" />
-        <option value="$PROJECT_DIR$/src/SparkRDD/test.scala" />
-        <option value="$PROJECT_DIR$/src/SparkRDD/test0.scala" />
         <option value="$PROJECT_DIR$/src/SparkRDD/test1.scala" />
         <option value="$PROJECT_DIR$/src/SparkRDD/test2.scala" />
         <option value="$PROJECT_DIR$/Resources/blog/bigdata" />
@@ -135,6 +122,11 @@
         <option value="$PROJECT_DIR$/src/SparkStreaming/WindowWordCount_countByWindow.scala" />
         <option value="$PROJECT_DIR$/src/SparkStreaming/WindowWordCount_reduceByWindow.scala" />
         <option value="$PROJECT_DIR$/src/SparkStreaming/SqlNetworkWordCount.scala" />
+        <option value="$PROJECT_DIR$/tmp/sparkstreaming/StreamingModel.scala" />
+        <option value="$PROJECT_DIR$/src/StreamingMLLib/ALS/DataGenerator_StreamingALS.scala" />
+        <option value="$PROJECT_DIR$/src/StreamingMLLib/ALS/StreamingALSModel.scala" />
+        <option value="$PROJECT_DIR$/src/SparkMLLib/ALS1.scala" />
+        <option value="$PROJECT_DIR$/src/SparkMLLib/als.scala" />
       </list>
     </option>
   </component>
@@ -225,7 +217,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkStreaming" />
+              <option name="myItemId" value="SparkMLLib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -239,23 +231,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkLab" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SparkStreaming" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SqlNetworkWordCount.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+              <option name="myItemId" value="MLLib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="NBKnowledgePane" />
     </panes>
   </component>
@@ -273,26 +275,41 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="sparklab" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\sparkLab\Resources\image" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/SparkMLLib" />
+      <recent name="$PROJECT_DIR$/Resources/MLLib/als" />
       <recent name="$PROJECT_DIR$/Resources/image" />
       <recent name="E:\bigdata\Spark\sparkLab\Resources\pdf" />
       <recent name="E:\bigdata\Spark\sparkLab\Resources\document" />
-      <recent name="D:\sparkLab\Resources\pdf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\sparkLab\Resources\image" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SqlNetworkWordCount">
-    <configuration default="false" name="DStreamTransformation" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.als">
+    <configuration default="false" name="SqlNetworkWordCount" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="SparkStreaming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="SparkStreaming.DStreamTransformation" />
+      <option name="MAIN_CLASS_NAME" value="SparkStreaming.SqlNetworkWordCount" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 8341" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparkLab" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SimpleStreamingModel" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SimpleStreamingModel" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -305,16 +322,36 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="StatefulNetworkWordCount" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="StreamingALSModel" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="SparkStreaming.*" />
+          <option name="PATTERN" value="StreamingMLLib.ALS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="SparkStreaming.StatefulNetworkWordCount" />
+      <option name="MAIN_CLASS_NAME" value="StreamingMLLib.ALS.StreamingALSModel" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparkLab" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="als" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SparkMLLib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="SparkMLLib.als" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 8341" />
+      <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -325,57 +362,17 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="WindowWordCount" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="als1" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="SparkStreaming.*" />
+          <option name="PATTERN" value="SparkMLLib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="SparkStreaming.WindowWordCount_reduceByKeyAndWindow" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 8341 30 10" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sparkLab" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="WindowWordCount_countByWindow" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="SparkStreaming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="SparkStreaming.WindowWordCount_countByWindow" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 8341 30 10" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sparkLab" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SqlNetworkWordCount" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="SparkStreaming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="SparkStreaming.SqlNetworkWordCount" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 8341" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="SparkMLLib.als1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -724,19 +721,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.Statistics" />
       <item index="1" class="java.lang.String" itemvalue="Application.MLLibBasic" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DStreamTransformation" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StatefulNetworkWordCount" />
-      <item index="4" class="java.lang.String" itemvalue="Application.WindowWordCount" />
-      <item index="5" class="java.lang.String" itemvalue="Application.WindowWordCount_countByWindow" />
-      <item index="6" class="java.lang.String" itemvalue="Application.SqlNetworkWordCount" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SqlNetworkWordCount" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SimpleStreamingModel" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StreamingALSModel" />
+      <item index="5" class="java.lang.String" itemvalue="Application.als" />
+      <item index="6" class="java.lang.String" itemvalue="Application.als1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SqlNetworkWordCount" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WindowWordCount_countByWindow" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WindowWordCount" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StatefulNetworkWordCount" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DStreamTransformation" />
+        <item index="0" class="java.lang.String" itemvalue="Application.als" />
+        <item index="1" class="java.lang.String" itemvalue="Application.als1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StreamingALSModel" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SimpleStreamingModel" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SqlNetworkWordCount" />
       </list>
     </recent_temporary>
   </component>
@@ -758,13 +755,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465280223218</updated>
-    </task>
-    <task id="LOCAL-00044" summary="2016-8-13 添加rdd0里面具体操作的详细注释：parallelize/map/collect操作">
-      <created>1471081810699</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1471081810699</updated>
     </task>
     <task id="LOCAL-00045" summary="2016-8-13 添加rdd0里面具体操作的详细注释：filter算子操作">
       <created>1471083711269</created>
@@ -1102,7 +1092,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485339363204</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="2017-1-25 学习SqlNetworkWordCount">
+      <created>1485347259934</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1485347259934</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1116,7 +1113,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="30" width="1879" height="1050" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1125,7 +1122,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276644" sideWeight="0.5030236" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18041511" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.078947365" sideWeight="0.49367785" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50986844" sideWeight="0.49367785" order="2" side_tool="false" content_ui="tabs" x="0" y="292" width="1366" height="153" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51927435" sideWeight="0.49697635" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20394737" sideWeight="0.49807587" order="9" side_tool="false" content_ui="tabs" x="62" y="726" width="1829" height="330" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1175,7 +1172,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2016-12-09 MLLibBasic;学习密集向量/稀疏向量/标签向量的创建" />
     <MESSAGE value="2016-12-10 MLLibBasic;学习LabeledPoint" />
     <MESSAGE value="2016-12-12 SparkRDD:计算RDD中各值的平方（map算子应用）" />
     <MESSAGE value="2016-12-12 SparkRDD:mkString()方法使用实例" />
@@ -1200,7 +1196,8 @@
     <MESSAGE value="2017-1-25 学习WindowWordCount" />
     <MESSAGE value="2017-1-25 学习WindowWordCount_countByWindow" />
     <MESSAGE value="2017-1-25 学习WindowWordCount_reduceByWindow" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017-1-25 学习WindowWordCount_reduceByWindow" />
+    <MESSAGE value="2017-1-25 学习SqlNetworkWordCount" />
+    <option name="LAST_COMMIT_MESSAGE" value="2017-1-25 学习SqlNetworkWordCount" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1213,56 +1210,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateStatisticalSummary.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="65" column="36" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/core/src/main/scala/org/apache/spark/SparkContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="827" column="6" selection-start-line="827" selection-start-column="6" selection-end-line="827" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/linalg/distributed/RowMatrix.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="404" column="66" selection-start-line="404" selection-start-column="66" selection-end-line="404" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateOnlineSummarizer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SparkRDD/LogQuery.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DTSpark/Scala/Basics/HelloTrait.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Business/Sogou/SogouCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="101" column="7" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hjr_temp/part-00000" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.5-sources.jar!/scala/collection/TraversableOnce.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1290,13 +1237,6 @@
     <entry file="file://$PROJECT_DIR$/out/hjrTemp/part-00001" />
     <entry file="file://$PROJECT_DIR$/out/hjrTemp/.part-00001.crc" />
     <entry file="file://$PROJECT_DIR$/out/hjrTemp/._SUCCESS.crc" />
-    <entry file="file://$PROJECT_DIR$/Resources/document/submit">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/hjrTemp/data/part-r-00000-8fdf338c-a63e-4e18-93eb-1eb0dec3a3a9.gz.parquet" />
     <entry file="file://$PROJECT_DIR$/out/hjrTemp/1484837995835/part-00000" />
     <entry file="file://$PROJECT_DIR$/out/hjrTemp/1484837995835/part-00001" />
@@ -1357,13 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/DataGenerator_StreamingKMeans.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkML/KMeansExample.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1399,35 +1332,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/streaming/src/main/scala/org/apache/spark/streaming/StreamingContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="330" column="76" selection-start-line="330" selection-start-column="76" selection-end-line="330" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SparkStreaming/NetworkWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#57#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkStreaming/QueueStream.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/streaming/src/main/scala/org/apache/spark/streaming/Duration.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1442,9 +1350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="679">
           <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-          <folding>
-            <element signature="e#24#57#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1452,9 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-          <folding>
-            <element signature="e#24#76#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1462,7 +1364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="146" column="6" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1470,7 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1478,9 +1378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
           <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-          <folding>
-            <element signature="e#24#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1488,7 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
           <caret line="843" column="29" selection-start-line="843" selection-start-column="29" selection-end-line="843" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1496,7 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="210" column="6" selection-start-line="210" selection-start-column="6" selection-end-line="210" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1504,28 +1399,137 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="e#24#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkStreaming/WindowWordCount_reduceByWindow.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
+        <state relative-caret-position="588">
           <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
           <folding>
-            <element signature="e#24#73#0" expanded="true" />
+            <element signature="e#24#73#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkStreaming/SqlNetworkWordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="147">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SparkStreaming/NetworkWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
           <folding>
-            <element signature="e#24#73#0" expanded="true" />
+            <element signature="e#24#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/streaming/src/main/scala/org/apache/spark/streaming/StreamingContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#838#892#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spark-1.6.3/streaming/src/main/scala/org/apache/spark/streaming/Duration.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/log4j-1.2.17-sources.jar!/org/apache/log4j/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/MLLib/als/test.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/document/submit">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="92" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/ALS/StreamingALSModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#28#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/LinearRegression/SimpleStreamingModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding>
+            <element signature="e#41#73#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/ALS/DataGenerator_StreamingALS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamingMLLib/DataGenerator_StreamingKMeans.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/sparkstreaming/StreamingModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SparkMLLib/ALS1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SparkMLLib/als.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="e#20#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
