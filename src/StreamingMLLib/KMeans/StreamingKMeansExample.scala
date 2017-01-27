@@ -1,4 +1,4 @@
-package StreamingMLLib
+package StreamingMLLib.KMeans
 
 import org.apache.spark.SparkConf
 import org.apache.spark.mllib.clustering.StreamingKMeans

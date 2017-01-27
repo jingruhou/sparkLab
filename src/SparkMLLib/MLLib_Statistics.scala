@@ -66,6 +66,7 @@ object MLLib_Statistics {
       */
     val data1 = data.map(f => Vectors.dense(f))
 
+    data1.collect().foreach(println)
     /**
       * Computes column-wise summary statistics for the input RDD[Vector]
       *
