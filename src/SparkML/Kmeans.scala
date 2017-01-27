@@ -14,11 +14,11 @@ object Kmeans {
     Logger.getLogger("org.eclipse.jetty.server").setLevel(Level.OFF)
 
     // 设置运行环境
-    val conf = new SparkConf().setAppName("Kmeans").setMaster("local")
+    val conf = new SparkConf().setAppName("Kmeans").setMaster("local[4]")
     val sc = new SparkContext(conf)
 
     // 装载数据集
-    val data = sc.textFile("D:/spark-1.6.0/data/mllib/kmeans_data.txt", 1)
+    val data = sc.textFile("Resources/StreamingMLLib/KMeans/TrainingData/kmeans_data.txt", 1)
     val parsedData = data.map(s => Vectors.dense(s.split(' ').map(_.toDouble)))
 
     // 将数据集聚类，2个类，20次迭代，进行模型训练形成数据模型
@@ -44,7 +44,7 @@ object Kmeans {
     // 交叉评估1，只返回结果
     val testdata = data.map(s => Vectors.dense(s.split(' ').map(_.toDouble)))
     val result1 = model.predict(testdata)
-    result1.saveAsTextFile("/home/hadoop/upload/class8/result_kmeans1")
+    result1.saveAsTextFile("Resources/temp/result1")
 
     // 交叉评估2，返回数据集和结果
     val result2 = data.map {
@@ -52,8 +52,11 @@ object Kmeans {
         val linevectore = Vectors.dense(line.split(' ').map(_.toDouble))
         val prediction = model.predict(linevectore)
         line + " " + prediction
-    }.saveAsTextFile("/home/hadoop/upload/class8/result_kmeans2")
+    }.saveAsTextFile("Resources/temp/result2")
 
-    sc.stop()
+    while(true){
+
+    }
+    //sc.stop()
   }
 }

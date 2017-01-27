@@ -22,6 +22,8 @@
   --conf spark.storage.memoryFraction=0.5 \
   --conf spark.shuffle.memoryFraction=0.3 \
 
+本地执行一个关于图计算的例子（一直在循环）
+./spark-submit /home/hjr/develop/cluster/spark-1.6.3-bin-hadoop2.6/examples/src/main/python/transitive_closure.py
 
 本地执行示例：
 ./spark-submit --master spark://hjr:7077 --class BI.DataGenerator /home/hjr/hjr_temp/sparkLab.jar
