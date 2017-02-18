@@ -4,8 +4,9 @@ import java.io.PrintWriter
 import java.net.ServerSocket
 
 import breeze.linalg.DenseVector
+import org.apache.log4j.{Level, Logger}
 import org.apache.spark.mllib.linalg.Vectors
-import org.apache.spark.mllib.regression.{StreamingLinearRegressionWithSGD, LabeledPoint}
+import org.apache.spark.mllib.regression.{LabeledPoint, StreamingLinearRegressionWithSGD}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 import scala.util.Random
@@ -19,7 +20,7 @@ object StreamingModelProducer {
   def main(args: Array[String]) {
 
     // Maximum number of events per second
-    val MaxEvents = 100
+    val MaxEvents = 10000
     val NumFeatures = 100
 
     val random = new Random()
@@ -79,7 +80,8 @@ object SimpleStreamingModel {
 
   def main(args: Array[String]) {
 
-    val ssc = new StreamingContext("local[4]", "First Streaming App", Seconds(10))
+    Logger.getRootLogger.setLevel(Level.WARN)
+    val ssc = new StreamingContext("local[8]", "First Streaming App", Seconds(1))
     val stream = ssc.socketTextStream("localhost", 9999)
 
     val NumFeatures = 100
@@ -117,7 +119,7 @@ object MonitoringStreamingModel {
 
   def main(args: Array[String]) {
 
-    val ssc = new StreamingContext("local[4]", "First Streaming App", Seconds(10))
+    val ssc = new StreamingContext("local[8]", "First Streaming App", Seconds(1))
     val stream = ssc.socketTextStream("localhost", 9999)
 
     val NumFeatures = 100

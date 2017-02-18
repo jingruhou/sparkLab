@@ -18,7 +18,7 @@ object Kmeans {
     val sc = new SparkContext(conf)
 
     // 装载数据集
-    val data = sc.textFile("Resources/StreamingMLLib/KMeans/TrainingData/kmeans_data.txt", 1)
+    val data = sc.textFile("Resources/StreamingMLLib/KMeans/TrainingData/kmeans_data.txt", 1).cache()
     val parsedData = data.map(s => Vectors.dense(s.split(' ').map(_.toDouble)))
 
     // 将数据集聚类，2个类，20次迭代，进行模型训练形成数据模型

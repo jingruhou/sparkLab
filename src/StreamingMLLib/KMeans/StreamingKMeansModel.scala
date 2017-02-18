@@ -1,5 +1,6 @@
 package StreamingMLLib.KMeans
 
+import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkConf
 import org.apache.spark.mllib.clustering.StreamingKMeans
 import org.apache.spark.mllib.linalg.Vectors
@@ -13,6 +14,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 object StreamingKMeansModel {
   def main(args: Array[String]): Unit = {
 
+    Logger.getRootLogger.setLevel(Level.WARN)
     // 0 输入参数判断
     /*if (args.length != 5) {
       System.err.println(
@@ -22,7 +24,7 @@ object StreamingKMeansModel {
     }*/
 
     // 1-1 初始化SparkConf（设置master、appname、jar等）
-    val conf = new SparkConf().setMaster("local[4]").setAppName("StreamingKMeansModel")
+    val conf = new SparkConf().setMaster("local[8]").setAppName("StreamingKMeansModel")
     // 1-2 使用SparkConf初始化StreamingContext
     val ssc = new StreamingContext(conf,Seconds(1))
 

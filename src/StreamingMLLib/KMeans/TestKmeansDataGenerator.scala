@@ -19,6 +19,7 @@ object TestKmeansDataGenerator {
     /**
       * 1 调用该模拟器需要的三个参数，分别为文件路径、端口号、间隔时间（单位：毫秒）
       *
+      * Resources/StreamingMLLib/KMeans/TestData/kmeans_data.txt 8342 1
       */
     if(args.length!=3){
       System.err.println("Usage:<filename><port><milliseconds>")

@@ -2,19 +2,19 @@ package StreamingMLLib.ALS
 
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkConf
-import org.apache.spark.mllib.recommendation.{ALS, MatrixFactorizationModel, Rating}
+import org.apache.spark.mllib.recommendation.Rating
 import org.apache.spark.storage.StorageLevel
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
-  * Created by hjr on 17-1-26.
+  * Created by hjr on 17-2-10.
   */
-object StreamingALSModel {
+object StreamingALSModel2 {
   def main(args: Array[String]): Unit = {
     /**
       * 0 实例化运行环境---构建Spark对象
       */
-    val conf = new SparkConf().setAppName("StreamingALSModel").setMaster("local[4]")
+    val conf = new SparkConf().setAppName("StreamingALSModel2").setMaster("local[8]")
     val ssc = new StreamingContext(conf,Seconds(1))
     //设置日志输出级别
     Logger.getRootLogger.setLevel(Level.WARN)
@@ -22,7 +22,7 @@ object StreamingALSModel {
     /**
       * 1 接收数据
       */
-    val lines = ssc.socketTextStream("127.0.0.1", 8341, StorageLevel.MEMORY_AND_DISK)
+    val lines = ssc.socketTextStream("127.0.0.1", 8342, StorageLevel.MEMORY_AND_DISK)
 
     //println("时间："+System.currentTimeMillis()+" 接收的数据为： "+lines.print())
 
@@ -40,7 +40,7 @@ object StreamingALSModel {
     }).cache()
     //查看接受到的数据记录
     ratings.print()
-    ratings.foreachRDD(data => data.collect().foreach(println))
+    //ratings.foreachRDD(data => data.collect().foreach(println))
     /**
       * 2 构建ALS模型
       * 设置默认参数

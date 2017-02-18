@@ -6,18 +6,9 @@ import java.net.ServerSocket
 import scala.io.Source
 
 /**
-  *
-  * 数据模拟器简介：
-  *
-  * 这个数据发送模拟器是通过 读取指定数据文件，
-  *
-  * 随机 选取一行数据 发送给连接这个服务器的客户端
-  *
-  *
-  * Created by hjr on 17-1-26.
+  * Created by hjr on 17-2-10.
   */
-object DataGenerator_StreamingALS {
-
+object DataGenerator_StreamingALS2 {
   /**
     * 0 定义随机获取整数的方法
     *
@@ -34,6 +25,7 @@ object DataGenerator_StreamingALS {
     /**
       * 1 调用该模拟器需要的三个参数，分别为文件路径、端口号、间隔时间（单位：毫秒）
       *
+      *  Resources/MLLib/als/ratings.dat
       */
     if(args.length!=3){
       System.err.println("Usage:<filename><port><milliseconds>")
