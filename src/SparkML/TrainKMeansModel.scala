@@ -39,7 +39,7 @@ object TrainKMeansModel {
     val numIterations = 20
     val initMode = "k-means||"
 
-    /**
+   /* /**
       * 10万 数据集
       */
     val startTrainTime1 = System.currentTimeMillis()
@@ -69,7 +69,7 @@ object TrainKMeansModel {
       .run(data_ml1m)
     val endTrainTIme2 = System.currentTimeMillis()
 
-    println("训练100万条数据花费时间： "+Seconds(endTrainTIme2-startTrainTime2))
+    println("训练100万条数据花费时间： "+Seconds(endTrainTIme2-startTrainTime2))*/
 
     /**
       * 1000万 数据集
@@ -85,7 +85,7 @@ object TrainKMeansModel {
 
     println("训练1000万条数据花费时间： "+Seconds(endTrainTIme3-startTrainTime3))
 
-    /**
+   /* /**
       * 2000万 数据集
       */
     val startTrainTime4 = System.currentTimeMillis()
@@ -97,7 +97,7 @@ object TrainKMeansModel {
       .run(data_ml20m)
     val endTrainTIme4 = System.currentTimeMillis()
 
-    println("训练2000万条数据花费时间： "+Seconds(endTrainTIme4-startTrainTime4))
+    println("训练2000万条数据花费时间： "+Seconds(endTrainTIme4-startTrainTime4))*/
 
 
     while(true){

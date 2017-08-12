@@ -14,7 +14,7 @@ object Kmeans {
     Logger.getLogger("org.eclipse.jetty.server").setLevel(Level.OFF)
 
     // 设置运行环境
-    val conf = new SparkConf().setAppName("Kmeans").setMaster("local[4]")
+    val conf = new SparkConf().setAppName("Kmeans").setMaster("local[8]")
     val sc = new SparkContext(conf)
 
     // 装载数据集

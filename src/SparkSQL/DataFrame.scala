@@ -71,5 +71,6 @@ object DataFrame {
 
     sqlContext.sql("select * from stock").show(5)
 
+
   }
 }

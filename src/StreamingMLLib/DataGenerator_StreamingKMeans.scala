@@ -12,7 +12,7 @@ object DataGenerator_StreamingKMeans {
     /**
       *  0 环境配置
       */
-    val conf = new SparkConf().setAppName("DataGenerator_StreamingKMeans").setMaster("local")
+    val conf = new SparkConf().setAppName("DataGenerator_StreamingKMeans").setMaster("local[4]")
     val sc = new SparkContext(conf)
 
     /**

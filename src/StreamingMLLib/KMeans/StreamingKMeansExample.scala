@@ -26,7 +26,7 @@ object StreamingKMeansExample {
     }
 
     // 1-1 初始化SparkConf（设置master、appname、jar等）
-    val conf = new SparkConf().setMaster("local").setAppName("StreamingKMeansExample1")
+    val conf = new SparkConf().setMaster("local[4]").setAppName("StreamingKMeansExample1")
     // 1-2 使用SparkConf初始化StreamingContext
     val ssc = new StreamingContext(conf,Seconds(args(2).toLong))
 

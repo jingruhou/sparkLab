@@ -98,7 +98,6 @@ object SogouCount {
     println("-------------------输出搜索结果排名第2的条数-------------------")
     val rdd2 = rdd1.filter(_(3).toInt == 2)
 
-
     /**
       * 关闭SparkContext
       */
