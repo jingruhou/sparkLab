@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="jars">
+    <CLASSES>
+      <root url="file:///opt/cloudera/parcels/CDH/jars" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file:///opt/cloudera/parcels/CDH/jars" />
+    </SOURCES>
+    <jarDirectory url="file:///opt/cloudera/parcels/CDH/jars" recursive="false" />
+    <jarDirectory url="file:///opt/cloudera/parcels/CDH/jars" recursive="false" type="SOURCES" />
+  </library>
+</component>

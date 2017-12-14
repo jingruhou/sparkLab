@@ -27,3 +27,8 @@
 
 本地执行示例：
 ./spark-submit --master spark://hjr:7077 --class BI.DataGenerator /home/hjr/hjr_temp/sparkLab.jar
+
+
+2017-12-14 易者悠也 深圳市讯方技术
+命令行直接执行
+spark-submit --master yarn-client --class SparkSQL.DataFrame --executor-memory  256m sparkLab.jar
